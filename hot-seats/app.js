@@ -4,6 +4,7 @@
 //   safe ("בפנים")   = positions 1..N-3
 const OUTLETS={"Channel 13":"חדשות 13","Channel 12":"חדשות 12","Israel Hayom":"ישראל היום","Channel 14":"ערוץ 14","Zman Yisrael":"זמן ישראל","Maariv":"מעריב","i24":"i24NEWS","Channel 16":"ערוץ 16","Walla":"וואלה","Kan 11":"כאן 11"};
 const G_LABEL={F:"אישה",M:"גבר",U:"מגדר לא אומת"};
+const ENTERS={F:"נכנסת",M:"נכנס",U:"נכנס/ת"};
 const state={src:"avg",g:"all"};
 let LISTS={},SOURCES=[],POLLS=[],WARN_STATIC=[],DETAILS={};
 const $=id=>document.getElementById(id);
@@ -104,7 +105,7 @@ function render(){
     a.hotRows.forEach(r=>{
       if(r.missing){body+=`<div class="missing">מקום ${r.pos}: אין נתונים</div>`}
       else if(gMatch(r.g)){
-        body+=`<div class="cand${r.e1?" e1":""}"><span class="pos">${r.pos}</span><span><button type="button" class="cname" data-key="${esc(party+"|"+r.pos)}">${esc(displayName(r.c))}</button></span><span class="tag ${r.g}">${G_LABEL[r.g]}</span><span class="st ${r.inside?"in":"out"}">${r.inside?"נכנס":"לא נכנס"}</span></div>`;
+        body+=`<div class="cand${r.e1?" e1":""}"><span class="pos">${r.pos}</span><span><button type="button" class="cname" data-key="${esc(party+"|"+r.pos)}">${esc(displayName(r.c))}</button></span><span class="tag ${r.g}">${G_LABEL[r.g]}</span><span class="st ${r.inside?"in":"out"}">${(r.inside?"":"לא ")+ENTERS[r.g]}</span></div>`;
       }
       if(r.pos===N)body+=`<div class="cutline">קו המנדטים · ${N}</div>`;
     });
