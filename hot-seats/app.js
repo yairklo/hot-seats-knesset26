@@ -201,6 +201,14 @@ const nextFrame=()=>new Promise(r=>{let done=false;const fin=()=>{if(!done){done
 async function exportPng(btn){
   const el=$(btn.dataset.target);
   const label=btn.querySelector("span")||btn;
+  // The export library loads async from a CDN. Clicked too early: say so instead of failing.
+  if(typeof htmlToImage==="undefined"){
+    const msg=window.__h2iFailed?"הייצוא נכשל":"הייצוא נטען, נסו שוב בעוד רגע";
+    if(label.dataset.busy)return;
+    const prev=label.textContent;label.dataset.busy="1";label.textContent=msg;
+    setTimeout(()=>{label.textContent=prev;delete label.dataset.busy},2500);
+    return;
+  }
   const old=label.textContent;label.textContent="מייצא…";btn.disabled=true;
   const root=document.documentElement,prevTheme=root.dataset.theme;
   document.body.classList.add("exporting");

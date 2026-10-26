@@ -277,6 +277,13 @@ dialog#cdModal::backdrop{background:var(--scrim);animation:fade-in 200ms ease-ou
 .exporting .cand .nm,.exporting .cmp .cname-cell .nm{text-decoration:none}
 .exporting .cand{border-color:transparent}
 .exporting .cand.e1{border-color:var(--e1-line)}
+/* compact comparison table in the PNG only: rows shrink from 44px touch height to ~28px */
+.exporting .cmp th,.exporting .cmp td{padding:2px var(--sp-2)}
+.exporting .cmp thead th{padding-block:var(--sp-1)}
+.exporting .cmp .cname-cell{min-height:26px;gap:var(--sp-1)}
+.exporting .cmp .tag{padding:0 7px;line-height:1.45}
+.exporting .cmp .cell{height:20px;width:24px}
+.exporting .cmp tr.party td{font-size:var(--fs-sm);padding-block:3px}
 
 @media (max-width:600px){
   .page{padding-block-start:var(--sp-4);gap:var(--sp-4)}
@@ -323,12 +330,12 @@ dialog#cdModal::backdrop{background:var(--scrim);animation:fade-in 200ms ease-ou
   <div class="warns" id="warns"></div>
 
   <section class="section" aria-labelledby="h1v">
-    <div class="vhead"><h2 id="h1v">לפי מפלגה</h2><button type="button" class="exp" data-target="capParties" data-name="מפלגות"><i data-lucide="image-down" aria-hidden="true"></i><span>ייצוא לתמונה (PNG)</span></button></div>
+    <div class="vhead"><h2 id="h1v">לפי מפלגה</h2><button type="button" class="exp" data-target="capParties" data-name="מפלגות"><i data-lucide="image-down" aria-hidden="true"></i><span aria-live="polite">ייצוא לתמונה (PNG)</span></button></div>
     <div class="capture" id="capParties"></div>
   </section>
 
   <section class="section" aria-labelledby="h2v">
-    <div class="vhead"><h2 id="h2v">השוואה בין הסקרים</h2><button type="button" class="exp" data-target="capCompare" data-name="השוואה"><i data-lucide="image-down" aria-hidden="true"></i><span>ייצוא לתמונה (PNG)</span></button></div>
+    <div class="vhead"><h2 id="h2v">השוואה בין הסקרים</h2><button type="button" class="exp" data-target="capCompare" data-name="השוואה"><i data-lucide="image-down" aria-hidden="true"></i><span aria-live="polite">ייצוא לתמונה (PNG)</span></button></div>
     <div class="tablewrap" tabindex="0"><div class="capture" id="capCompare"></div></div>
   </section>
   </main>
@@ -347,7 +354,7 @@ dialog#cdModal::backdrop{background:var(--scrim);animation:fade-in 200ms ease-ou
   </div>
 </dialog>
 <!-- CDN scripts load async: if one fails, the page and its data still work. -->
-<script async src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js" onerror="window.__h2iFailed=true"></script>
 <script async src="https://cdn.jsdelivr.net/npm/lucide@0.469.0/dist/umd/lucide.min.js" onload="window.hsIcons&&hsIcons();var b=document.getElementById('themeBtn');var f=b&&b.querySelector('.fallback-txt');if(f&&b.querySelector('svg'))f.hidden=true"></script>
 <script src="app.js"></script>
 </body>
