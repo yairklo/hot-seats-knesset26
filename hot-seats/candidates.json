@@ -1,9 +1,15 @@
 {
- "source": "רשימות המועמדים שהוגשו לוועדת הבחירות המרכזית לכנסת ה-26 (gov.il), 30 המקומות הראשונים",
+ "source": "רשימות המועמדים שהוגשו לוועדת הבחירות המרכזית לכנסת ה-26 (gov.il). נשלף ב-26.10.2026, עד 32 מקומות לכל רשימה",
  "genderNote": "F = אישה, M = גבר, null = לא אומת",
+ "withdrawn": [
+  "כחול לבן",
+  "תנועת אחי"
+ ],
  "parties": [
   {
    "name": "ישר!",
+   "listUpdated": "13.10.2026",
+   "url": "https://www.gov.il/he/pages/yashar_list_2",
    "candidates": [
     {
      "pos": 1,
@@ -38,7 +44,7 @@
     {
      "pos": 6,
      "official": "טרופר יחיאל משה",
-     "display": null,
+     "display": "יחיאל משה טרופר",
      "gender": "M"
     },
     {
@@ -80,7 +86,7 @@
     {
      "pos": 13,
      "official": "אבו רוקן כמיל",
-     "display": null,
+     "display": "כמיל אבו רוקן",
      "gender": "M"
     },
     {
@@ -104,7 +110,7 @@
     {
      "pos": 17,
      "official": "פולקמן רועי שמואל",
-     "display": null,
+     "display": "רועי שמואל פולקמן",
      "gender": "M"
     },
     {
@@ -176,7 +182,7 @@
     {
      "pos": 29,
      "official": "פוטרמן אלון צבי",
-     "display": null,
+     "display": "אלון צבי פוטרמן",
      "gender": "M"
     },
     {
@@ -184,11 +190,25 @@
      "official": "מולנר טלי",
      "display": null,
      "gender": "F"
+    },
+    {
+     "pos": 31,
+     "official": "אבריאל גיל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 32,
+     "official": "בן דוד עוזרי שירן",
+     "display": "שירן בן דוד עוזרי",
+     "gender": "F"
     }
    ]
   },
   {
    "name": "הליכוד",
+   "listUpdated": "14.10.2026",
+   "url": "https://www.gov.il/he/pages/halikud-tikvahadasha_iist29",
    "candidates": [
     {
      "pos": 1,
@@ -211,7 +231,7 @@
     {
      "pos": 4,
      "official": "לוין יריב גדעון",
-     "display": null,
+     "display": "יריב גדעון לוין",
      "gender": "M"
     },
     {
@@ -229,7 +249,7 @@
     {
      "pos": 7,
      "official": "סער גדעון משה",
-     "display": null,
+     "display": "גדעון משה סער",
      "gender": "M"
     },
     {
@@ -369,11 +389,25 @@
      "official": "פרץ משה בנימין",
      "display": null,
      "gender": "M"
+    },
+    {
+     "pos": 31,
+     "official": "אוחנה שוקי יהושע",
+     "display": "שוקי (יהושע) אוחנה",
+     "gender": "M"
+    },
+    {
+     "pos": 32,
+     "official": "אלקין זאב",
+     "display": null,
+     "gender": "M"
     }
    ]
   },
   {
    "name": "ביחד",
+   "listUpdated": "21.10.2026",
+   "url": "https://www.gov.il/he/pages/beyahad_list1",
    "candidates": [
     {
      "pos": 1,
@@ -408,7 +442,7 @@
     {
      "pos": 6,
      "official": "תיבון נעם משה",
-     "display": null,
+     "display": "נעם משה תיבון",
      "gender": "M"
     },
     {
@@ -444,7 +478,7 @@
     {
      "pos": 12,
      "official": "בן ברק רם",
-     "display": null,
+     "display": "רם בן ברק",
      "gender": "M"
     },
     {
@@ -456,8 +490,8 @@
     {
      "pos": 14,
      "official": "שירי נאור",
-     "display": "שירי נאור",
-     "gender": "F"
+     "display": "נאור שירי",
+     "gender": "M"
     },
     {
      "pos": 15,
@@ -480,7 +514,7 @@
     {
      "pos": 18,
      "official": "להב הרצנו יוראי",
-     "display": null,
+     "display": "יוראי להב הרצנו",
      "gender": "M"
     },
     {
@@ -516,7 +550,7 @@
     {
      "pos": 24,
      "official": "טור-פז משה יהודה",
-     "display": null,
+     "display": "משה יהודה טור-פז",
      "gender": "M"
     },
     {
@@ -554,11 +588,25 @@
      "official": "וינר תומר",
      "display": null,
      "gender": null
+    },
+    {
+     "pos": 31,
+     "official": "איריש מלכאי רוני",
+     "display": "רוני איריש מלכאי",
+     "gender": "F"
+    },
+    {
+     "pos": 32,
+     "official": "מזאל שחר תמר",
+     "display": "תמר מזאל שחר",
+     "gender": "F"
     }
    ]
   },
   {
    "name": "הדמוקרטים",
+   "listUpdated": "14.10.2026",
+   "url": "https://www.gov.il/he/pages/hademokratim_list17",
    "candidates": [
     {
      "pos": 1,
@@ -739,11 +787,25 @@
      "official": "כהן פארן יעל",
      "display": "יעל כהן פארן",
      "gender": "F"
+    },
+    {
+     "pos": 31,
+     "official": "ניסן ערן שלמה",
+     "display": "ערן שלמה ניסן",
+     "gender": "M"
+    },
+    {
+     "pos": 32,
+     "official": "רגולסקי הדס",
+     "display": null,
+     "gender": "F"
     }
    ]
   },
   {
    "name": "ישראל ביתנו",
+   "listUpdated": "29.09.2026",
+   "url": "https://www.gov.il/he/pages/israel-beitenu_list11",
    "candidates": [
     {
      "pos": 1,
@@ -754,7 +816,7 @@
     {
      "pos": 2,
      "official": "בן שטרית רפאל",
-     "display": null,
+     "display": "רפאל בן שטרית",
      "gender": "M"
     },
     {
@@ -802,7 +864,7 @@
     {
      "pos": 10,
      "official": "אילוז דן אליהו יעקב",
-     "display": null,
+     "display": "דן אליהו יעקב אילוז",
      "gender": "M"
     },
     {
@@ -924,16 +986,30 @@
      "official": "רובין בילי",
      "display": null,
      "gender": "F"
+    },
+    {
+     "pos": 31,
+     "official": "בן-טל עומר",
+     "display": "עומר בן-טל",
+     "gender": null
+    },
+    {
+     "pos": 32,
+     "official": "בק משה",
+     "display": null,
+     "gender": "M"
     }
    ]
   },
   {
    "name": "עוצמה יהודית",
+   "listUpdated": "29.09.2026",
+   "url": "https://www.gov.il/he/pages/yehudit-meuhedet_list14",
    "candidates": [
     {
      "pos": 1,
      "official": "בן גביר איתמר",
-     "display": null,
+     "display": "איתמר בן גביר",
      "gender": "M"
     },
     {
@@ -945,7 +1021,7 @@
     {
      "pos": 3,
      "official": "וסרלאוף יצחק שמעון",
-     "display": null,
+     "display": "יצחק שמעון וסרלאוף",
      "gender": "M"
     },
     {
@@ -975,7 +1051,7 @@
     {
      "pos": 8,
      "official": "אליהו צחי יצחק",
-     "display": null,
+     "display": "צחי יצחק אליהו",
      "gender": "M"
     },
     {
@@ -993,13 +1069,13 @@
     {
      "pos": 11,
      "official": "בבלי דוד מנחם",
-     "display": null,
+     "display": "דוד מנחם בבלי",
      "gender": "M"
     },
     {
      "pos": 12,
      "official": "פליישר ישי יעקב",
-     "display": null,
+     "display": "ישי יעקב פליישר",
      "gender": "M"
     },
     {
@@ -1109,15 +1185,29 @@
      "official": "איסאקוב רוני רונן",
      "display": null,
      "gender": "M"
+    },
+    {
+     "pos": 31,
+     "official": "סגל יהונתן יצחק",
+     "display": "יהונתן יצחק סגל",
+     "gender": "M"
+    },
+    {
+     "pos": 32,
+     "official": "גולדברג אברהם",
+     "display": null,
+     "gender": "M"
     }
    ]
   },
   {
    "name": "הרשימה המשותפת",
+   "listUpdated": "14.10.2026",
+   "url": "https://www.gov.il/he/pages/hareshima-hameshutefet_list35",
    "candidates": [
     {
      "pos": 1,
-     "official": "גבארין יוסף",
+     "official": "ג'בארין יוסף",
      "display": null,
      "gender": "M"
     },
@@ -1129,176 +1219,190 @@
     },
     {
      "pos": 3,
-     "official": "אבו שחאדה סאמי",
+     "official": "גטאס פאתן",
      "display": null,
      "gender": "M"
     },
     {
      "pos": 4,
-     "official": "ג'טאס פאתן",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 5,
      "official": "עואודה בכר",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 6,
+     "pos": 5,
      "official": "כסיף עופר",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 7,
+     "pos": 6,
      "official": "עטאונה יוסף",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 8,
+     "pos": 7,
      "official": "כרכבי סבאח מהא",
      "display": "מהא כרכבי סבאח",
      "gender": "F"
     },
     {
-     "pos": 9,
+     "pos": 8,
      "official": "דראושה אחמד",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 10,
+     "pos": 9,
      "official": "ושאחי נהאיה",
      "display": null,
      "gender": "F"
     },
     {
-     "pos": 11,
+     "pos": 10,
      "official": "אלנסאסרה חסן",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 12,
+     "pos": 11,
      "official": "זחאלקה האיתם",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 13,
+     "pos": 12,
      "official": "נאטור איאס",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 14,
-     "official": "עבדאללה ג'סאן",
+     "pos": 13,
+     "official": "עבדאללה גסאן",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 15,
+     "pos": 14,
      "official": "נוי אורלי",
      "display": null,
      "gender": "F"
     },
     {
-     "pos": 16,
+     "pos": 15,
      "official": "סטולר מור שושן",
      "display": "מור שושן סטולר",
      "gender": "F"
     },
     {
-     "pos": 17,
+     "pos": 16,
      "official": "קעדאן איעתמאד",
      "display": null,
      "gender": "F"
     },
     {
-     "pos": 18,
+     "pos": 17,
      "official": "ואכד עומר",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 19,
+     "pos": 18,
      "official": "מיעארי מואייד",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 20,
+     "pos": 19,
      "official": "גזאווי גאנם",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 21,
+     "pos": 20,
      "official": "זועבי אומניה",
      "display": null,
      "gender": "F"
     },
     {
-     "pos": 22,
+     "pos": 21,
      "official": "סנעאללה נסר",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 23,
+     "pos": 22,
      "official": "ח'וריה סרי",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 24,
+     "pos": 23,
      "official": "כבהה לאית",
      "display": null,
      "gender": null
     },
     {
-     "pos": 25,
+     "pos": 24,
      "official": "קעדאן וליד",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 26,
+     "pos": 25,
      "official": "נועה לוי",
      "display": "נועה לוי",
      "gender": null
     },
     {
-     "pos": 27,
+     "pos": 26,
      "official": "טאהא עמאר",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 28,
+     "pos": 27,
      "official": "אבו גררה יונס",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 29,
+     "pos": 28,
      "official": "חזאן רים",
      "display": null,
      "gender": "F"
     },
     {
-     "pos": 30,
+     "pos": 29,
      "official": "אבו אחמד ואפי",
      "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "שוקיר משעור רודינה",
+     "display": "רודינה שוקיר משעור",
+     "gender": "F"
+    },
+    {
+     "pos": 31,
+     "official": "גבארה אלמאסה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 32,
+     "official": "אבו יונס ג'יהאד",
+     "display": "ג'יהאד אבו יונס",
      "gender": "M"
     }
    ]
   },
   {
    "name": "יהדות התורה",
+   "listUpdated": "14.10.2026",
+   "url": "https://www.gov.il/he/pages/yahadut-degel_list37",
    "candidates": [
     {
      "pos": 1,
@@ -1315,7 +1419,7 @@
     {
      "pos": 3,
      "official": "פינדרוס יצחק זאב",
-     "display": null,
+     "display": "יצחק זאב פינדרוס",
      "gender": "M"
     },
     {
@@ -1345,7 +1449,7 @@
     {
      "pos": 8,
      "official": "טסלר יואל יעקב",
-     "display": null,
+     "display": "יואל יעקב טסלר",
      "gender": "M"
     },
     {
@@ -1393,7 +1497,7 @@
     {
      "pos": 16,
      "official": "גוטרמן יעקב אשר",
-     "display": null,
+     "display": "יעקב אשר גוטרמן",
      "gender": "M"
     },
     {
@@ -1429,7 +1533,7 @@
     {
      "pos": 22,
      "official": "שפירא מנחם מנדל",
-     "display": null,
+     "display": "מנחם מנדל שפירא",
      "gender": "M"
     },
     {
@@ -1440,55 +1544,69 @@
     },
     {
      "pos": 24,
-     "official": "מורגנשטרן משה דוד",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 25,
      "official": "וובר אפרים",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 26,
+     "pos": 25,
      "official": "ראוכברגר אליעזר צבי",
-     "display": null,
+     "display": "אליעזר צבי ראוכברגר",
      "gender": "M"
     },
     {
-     "pos": 27,
+     "pos": 26,
      "official": "רושגולד אברהם צבי",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 28,
+     "pos": 27,
      "official": "דייטש אברהם בן ציון",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 29,
+     "pos": 28,
      "official": "אלבוים מנחם",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 30,
+     "pos": 29,
      "official": "אלפר מרדכי מיכאל",
      "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "ויזל חיים מאיר",
+     "display": "חיים מאיר ויזל",
+     "gender": "M"
+    },
+    {
+     "pos": 31,
+     "official": "קלרמן שמעון ישראל",
+     "display": "שמעון ישראל קלרמן",
+     "gender": "M"
+    },
+    {
+     "pos": 32,
+     "official": "ויסמן ישעיהו יצחק",
+     "display": "ישעיהו יצחק ויסמן",
      "gender": "M"
     }
    ]
   },
   {
    "name": "ש\"ס",
+   "listUpdated": "29.09.2026",
+   "url": "https://www.gov.il/he/pages/shas_list19",
    "candidates": [
     {
      "pos": 1,
      "official": "דרעי אריה מכלוף",
-     "display": null,
+     "display": "אריה מכלוף דרעי",
      "gender": "M"
     },
     {
@@ -1500,13 +1618,13 @@
     {
      "pos": 3,
      "official": "מלכיאלי מיכאל משה",
-     "display": null,
+     "display": "מיכאל משה מלכיאלי",
      "gender": "M"
     },
     {
      "pos": 4,
      "official": "בן צור יואב",
-     "display": null,
+     "display": "יואב בן צור",
      "gender": "M"
     },
     {
@@ -1518,7 +1636,7 @@
     {
      "pos": 6,
      "official": "עמוס דרור דוד",
-     "display": null,
+     "display": "דרור דוד עמוס",
      "gender": "M"
     },
     {
@@ -1530,7 +1648,7 @@
     {
      "pos": 8,
      "official": "בוסו אוריאל מנחם",
-     "display": null,
+     "display": "אוריאל מנחם בוסו",
      "gender": "M"
     },
     {
@@ -1614,7 +1732,7 @@
     {
      "pos": 22,
      "official": "קקון יוסי יוסף חיים",
-     "display": null,
+     "display": "יוסי יוסף חיים קקון",
      "gender": "M"
     },
     {
@@ -1664,22 +1782,36 @@
      "official": "סברלי חיים",
      "display": null,
      "gender": "M"
+    },
+    {
+     "pos": 31,
+     "official": "עזרן שלמה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 32,
+     "official": "סיתאלכיל בני",
+     "display": null,
+     "gender": "M"
     }
    ]
   },
   {
    "name": "הציונות הדתית",
+   "listUpdated": "29.09.2026",
+   "url": "https://www.gov.il/he/pages/tzionutdatit-zehut_list31",
    "candidates": [
     {
      "pos": 1,
      "official": "סמוטריץ בצלאל יואל",
-     "display": null,
+     "display": "בצלאל יואל סמוטריץ",
      "gender": "M"
     },
     {
      "pos": 2,
      "official": "פייגלין משה זלמן",
-     "display": null,
+     "display": "משה זלמן פייגלין",
      "gender": "M"
     },
     {
@@ -1691,7 +1823,7 @@
     {
      "pos": 4,
      "official": "רוטמן שמחה דן",
-     "display": null,
+     "display": "שמחה דן רוטמן",
      "gender": "M"
     },
     {
@@ -1709,13 +1841,13 @@
     {
      "pos": 7,
      "official": "סוכות צבי ידידיה",
-     "display": null,
+     "display": "צבי ידידיה סוכות",
      "gender": "M"
     },
     {
      "pos": 8,
      "official": "זאגא יצחק חי",
-     "display": null,
+     "display": "יצחק חי זאגא",
      "gender": "M"
     },
     {
@@ -1849,11 +1981,25 @@
      "official": "וולדיגר מיכל מרים",
      "display": "מיכל מרים וולדיגר",
      "gender": "F"
+    },
+    {
+     "pos": 31,
+     "official": "שושן יוסף חיים",
+     "display": "יוסף חיים שושן",
+     "gender": "M"
+    },
+    {
+     "pos": 32,
+     "official": "מענדלסון אלישע",
+     "display": null,
+     "gender": "M"
     }
    ]
   },
   {
    "name": "רע\"מ",
+   "listUpdated": "14.10.2026",
+   "url": "https://www.gov.il/he/pages/raam_list18",
    "candidates": [
     {
      "pos": 1,
@@ -1906,13 +2052,13 @@
     {
      "pos": 9,
      "official": "עזאם עבד אל כרים",
-     "display": null,
+     "display": "עבד אל כרים עזאם",
      "gender": "M"
     },
     {
      "pos": 10,
      "official": "אבו לבן אברהים",
-     "display": null,
+     "display": "אברהים אבו לבן",
      "gender": "M"
     },
     {
@@ -2034,11 +2180,25 @@
      "official": "בשותי פאטמה",
      "display": null,
      "gender": "F"
+    },
+    {
+     "pos": 31,
+     "official": "אמארה דאהר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 32,
+     "official": "עתמה עבדו",
+     "display": null,
+     "gender": "M"
     }
    ]
   },
   {
    "name": "עמך ישראל",
+   "listUpdated": "21.10.2026",
+   "url": "https://www.gov.il/he/pages/amcha-israel_list6",
    "candidates": [
     {
      "pos": 1,
@@ -2084,66 +2244,60 @@
     },
     {
      "pos": 8,
-     "official": "בן ציון דוד נחום",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 9,
      "official": "עזרא אביב חיים",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 10,
+     "pos": 9,
      "official": "ג'ינו אלי",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 11,
+     "pos": 10,
      "official": "קראוניק זריפה סגלית",
      "display": "סגלית קראוניק זריפה",
      "gender": "F"
     },
     {
-     "pos": 12,
+     "pos": 11,
      "official": "רובין אריק מת'יו",
-     "display": null,
+     "display": "אריק מת'יו רובין",
      "gender": "M"
     },
     {
-     "pos": 13,
+     "pos": 12,
      "official": "אבראהים עלמאדין",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 14,
+     "pos": 13,
      "official": "הר ציון משה",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 15,
+     "pos": 14,
      "official": "חיים אידלברג לילך",
      "display": "לילך חיים אידלברג",
      "gender": "F"
     },
     {
-     "pos": 16,
+     "pos": 15,
      "official": "טולדנו משה",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 17,
+     "pos": 16,
      "official": "מלכה רז",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 18,
+     "pos": 17,
      "official": "לוי דור יצחק",
      "display": null,
      "gender": "M"
@@ -2152,6 +2306,8 @@
   },
   {
    "name": "המילואימניקים",
+   "listUpdated": "11.10.2026",
+   "url": "https://www.gov.il/he/pages/hamiluimnikim-vehakalkalit_list16",
    "candidates": [
     {
      "pos": 1,
@@ -2180,13 +2336,13 @@
     {
      "pos": 5,
      "official": "אדומי יואב שלמה",
-     "display": null,
+     "display": "יואב שלמה אדומי",
      "gender": "M"
     },
     {
      "pos": 6,
      "official": "לנגמן אופיר שי",
-     "display": null,
+     "display": "אופיר שי לנגמן",
      "gender": "M"
     },
     {
@@ -2239,282 +2395,109 @@
     },
     {
      "pos": 15,
-     "official": "בהט יונתן",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 16,
      "official": "פז מאור",
      "display": null,
      "gender": null
     },
     {
-     "pos": 17,
-     "official": "רום אלמוג",
-     "display": null,
-     "gender": null
-    },
-    {
-     "pos": 18,
+     "pos": 16,
      "official": "שבח דוד",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 19,
+     "pos": 17,
      "official": "לוי דוד",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 20,
+     "pos": 18,
      "official": "נקי סתיו",
      "display": null,
      "gender": null
     },
     {
-     "pos": 21,
+     "pos": 19,
      "official": "טגן בתאל",
      "display": null,
      "gender": "F"
     },
     {
-     "pos": 22,
+     "pos": 20,
      "official": "כריסי חוברה הדס רנה",
      "display": "הדס רנה כריסי חוברה",
      "gender": "F"
     },
     {
-     "pos": 23,
+     "pos": 21,
      "official": "לוי רוית",
      "display": null,
      "gender": "F"
     },
     {
-     "pos": 24,
+     "pos": 22,
      "official": "לזמי אליאן",
      "display": null,
      "gender": null
     },
     {
-     "pos": 25,
+     "pos": 23,
      "official": "נתן גבריאל",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 26,
+     "pos": 24,
      "official": "ספירט חפציבה",
      "display": null,
      "gender": "F"
     },
     {
-     "pos": 27,
+     "pos": 25,
      "official": "עמית אריה אליעד",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 28,
+     "pos": 26,
      "official": "ששון יניב",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 29,
+     "pos": 27,
      "official": "סלונימסקי יוגב יבגני",
      "display": null,
      "gender": "M"
     },
     {
-     "pos": 30,
+     "pos": 28,
      "official": "אליהו ניר",
      "display": null,
      "gender": "M"
-    }
-   ]
-  },
-  {
-   "name": "כחול לבן",
-   "candidates": [
-    {
-     "pos": 1,
-     "official": "גנץ בנימין",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 2,
-     "official": "תמנו פנינה (פנחש)",
-     "display": "פנינה תמנו",
-     "gender": "F"
-    },
-    {
-     "pos": 3,
-     "official": "בלוך גאולה עליזה",
-     "display": "גאולה עליזה בלוך",
-     "gender": "F"
-    },
-    {
-     "pos": 4,
-     "official": "קונקול רועי",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 5,
-     "official": "אבידר צאליק רתם",
-     "display": "רתם אבידר צאליק",
-     "gender": "F"
-    },
-    {
-     "pos": 6,
-     "official": "שוסטר אלון נתן",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 7,
-     "official": "מרעי מופיד",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 8,
-     "official": "אוליאל מלכה יהודית",
-     "display": "מלכה יהודית אוליאל",
-     "gender": "F"
-    },
-    {
-     "pos": 9,
-     "official": "בזיז אריאל",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 10,
-     "official": "סילפן מוריה",
-     "display": null,
-     "gender": "F"
-    },
-    {
-     "pos": 11,
-     "official": "בן אברהם ג'וליאנה",
-     "display": "ג'וליאנה בן אברהם",
-     "gender": "F"
-    },
-    {
-     "pos": 12,
-     "official": "לב-כהן מוניקה יעל",
-     "display": "מוניקה יעל לב-כהן",
-     "gender": "F"
-    },
-    {
-     "pos": 13,
-     "official": "זולדן שי",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 14,
-     "official": "קידר לילי",
-     "display": null,
-     "gender": "F"
-    },
-    {
-     "pos": 15,
-     "official": "דוד שי",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 16,
-     "official": "פרץ בן",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 17,
-     "official": "עמר שרונה",
-     "display": null,
-     "gender": "F"
-    },
-    {
-     "pos": 18,
-     "official": "שלו וודיסלבסקי רות",
-     "display": "רות שלו וודיסלבסקי",
-     "gender": "F"
-    },
-    {
-     "pos": 19,
-     "official": "יוסף נאהי",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 20,
-     "official": "אסייג דוד",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 21,
-     "official": "מנטבר נעה",
-     "display": null,
-     "gender": "F"
-    },
-    {
-     "pos": 22,
-     "official": "סטרבורבדיס עמנואל אליהו",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 23,
-     "official": "רהב ציון",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 24,
-     "official": "גרבי מיכאל שי",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 25,
-     "official": "אדרי משה מור",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 26,
-     "official": "שקד ישעיהו",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 27,
-     "official": "זימבריס יוסף",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 28,
-     "official": "ולנטי רות",
-     "display": null,
-     "gender": "F"
     },
     {
      "pos": 29,
-     "official": "גוטליב מיכאל",
-     "display": null,
+     "official": "מזרחי איתמר חי",
+     "display": "איתמר חי מזרחי",
      "gender": "M"
     },
     {
      "pos": 30,
-     "official": "אבן זיו יגאל",
+     "official": "קארבאט יזהר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 31,
+     "official": "בן דוד דור רון",
+     "display": "דור רון בן דוד",
+     "gender": null
+    },
+    {
+     "pos": 32,
+     "official": "נגר מנחם",
      "display": null,
      "gender": "M"
     }
@@ -2522,6 +2505,8 @@
   },
   {
    "name": "הציבור החרדי",
+   "listUpdated": "01.10.2026",
+   "url": "https://www.gov.il/he/pages/tzibur-charedi_list20",
    "candidates": [
     {
      "pos": 1,
@@ -2599,6 +2584,8 @@
   },
   {
    "name": "נעם לישראל",
+   "listUpdated": "14.10.2026",
+   "url": "https://www.gov.il/he/pages/noam_list38",
    "candidates": [
     {
      "pos": 1,
@@ -2615,7 +2602,7 @@
     {
      "pos": 3,
      "official": "ליבמן אליהו שלום",
-     "display": null,
+     "display": "אליהו שלום ליבמן",
      "gender": "M"
     },
     {
@@ -2633,7 +2620,7 @@
     {
      "pos": 6,
      "official": "אביטן ישראל יאיר",
-     "display": null,
+     "display": "ישראל יאיר אביטן",
      "gender": "M"
     },
     {
@@ -2650,7 +2637,7 @@
     },
     {
      "pos": 9,
-     "official": "באבד אללקנה",
+     "official": "באבד אלקנה",
      "display": null,
      "gender": "M"
     },
@@ -2700,6 +2687,8 @@
   },
   {
    "name": "צומת בית ישראל",
+   "listUpdated": "14.10.2026",
+   "url": "https://www.gov.il/he/pages/tzomet-beit-israel_list33",
    "candidates": [
     {
      "pos": 1,
@@ -2770,71 +2759,6 @@
     {
      "pos": 12,
      "official": "רייף גיא",
-     "display": null,
-     "gender": "M"
-    }
-   ]
-  },
-  {
-   "name": "תנועת אחי",
-   "candidates": [
-    {
-     "pos": 1,
-     "official": "אלמלך יובל",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 2,
-     "official": "אפל ישראל אביחי",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 3,
-     "official": "ראובן ארז",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 4,
-     "official": "דיין אברהם",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 5,
-     "official": "כהן אדיר",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 6,
-     "official": "יחזקאל חנן",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 7,
-     "official": "דדון יהודה",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 8,
-     "official": "וודגה גרמה גד",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 9,
-     "official": "סויסה יצחק שניר רפאל",
-     "display": null,
-     "gender": "M"
-    },
-    {
-     "pos": 10,
-     "official": "נהרי יואל יקיר",
      "display": null,
      "gender": "M"
     }
