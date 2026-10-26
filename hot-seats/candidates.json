@@ -44,7 +44,7 @@
     {
      "pos": 6,
      "official": "טרופר יחיאל משה",
-     "display": null,
+     "display": "יחיאל משה טרופר",
      "gender": "M"
     },
     {
@@ -86,7 +86,7 @@
     {
      "pos": 13,
      "official": "אבו רוקן כמיל",
-     "display": null,
+     "display": "כמיל אבו רוקן",
      "gender": "M"
     },
     {
@@ -110,7 +110,7 @@
     {
      "pos": 17,
      "official": "פולקמן רועי שמואל",
-     "display": null,
+     "display": "רועי שמואל פולקמן",
      "gender": "M"
     },
     {
@@ -182,7 +182,7 @@
     {
      "pos": 29,
      "official": "פוטרמן אלון צבי",
-     "display": null,
+     "display": "אלון צבי פוטרמן",
      "gender": "M"
     },
     {
@@ -231,7 +231,7 @@
     {
      "pos": 4,
      "official": "לוין יריב גדעון",
-     "display": null,
+     "display": "יריב גדעון לוין",
      "gender": "M"
     },
     {
@@ -249,7 +249,7 @@
     {
      "pos": 7,
      "official": "סער גדעון משה",
-     "display": null,
+     "display": "גדעון משה סער",
      "gender": "M"
     },
     {
@@ -442,7 +442,7 @@
     {
      "pos": 6,
      "official": "תיבון נעם משה",
-     "display": null,
+     "display": "נעם משה תיבון",
      "gender": "M"
     },
     {
@@ -490,7 +490,7 @@
     {
      "pos": 14,
      "official": "שירי נאור",
-     "display": "שירי נאור",
+     "display": "נאור שירי",
      "gender": "F"
     },
     {
@@ -514,7 +514,7 @@
     {
      "pos": 18,
      "official": "להב הרצנו יוראי",
-     "display": null,
+     "display": "יוראי להב הרצנו",
      "gender": "M"
     },
     {
@@ -550,7 +550,7 @@
     {
      "pos": 24,
      "official": "טור-פז משה יהודה",
-     "display": null,
+     "display": "משה יהודה טור-פז",
      "gender": "M"
     },
     {
@@ -816,7 +816,7 @@
     {
      "pos": 2,
      "official": "בן שטרית רפאל",
-     "display": null,
+     "display": "רפאל בן שטרית",
      "gender": "M"
     },
     {
@@ -864,7 +864,7 @@
     {
      "pos": 10,
      "official": "אילוז דן אליהו יעקב",
-     "display": null,
+     "display": "דן אליהו יעקב אילוז",
      "gender": "M"
     },
     {
@@ -1009,7 +1009,7 @@
     {
      "pos": 1,
      "official": "בן גביר איתמר",
-     "display": null,
+     "display": "איתמר בן גביר",
      "gender": "M"
     },
     {
@@ -1021,7 +1021,7 @@
     {
      "pos": 3,
      "official": "וסרלאוף יצחק שמעון",
-     "display": null,
+     "display": "יצחק שמעון וסרלאוף",
      "gender": "M"
     },
     {
@@ -1051,7 +1051,7 @@
     {
      "pos": 8,
      "official": "אליהו צחי יצחק",
-     "display": null,
+     "display": "צחי יצחק אליהו",
      "gender": "M"
     },
     {
@@ -1069,13 +1069,13 @@
     {
      "pos": 11,
      "official": "בבלי דוד מנחם",
-     "display": null,
+     "display": "דוד מנחם בבלי",
      "gender": "M"
     },
     {
      "pos": 12,
      "official": "פליישר ישי יעקב",
-     "display": null,
+     "display": "ישי יעקב פליישר",
      "gender": "M"
     },
     {
@@ -1419,7 +1419,7 @@
     {
      "pos": 3,
      "official": "פינדרוס יצחק זאב",
-     "display": null,
+     "display": "יצחק זאב פינדרוס",
      "gender": "M"
     },
     {
@@ -1449,7 +1449,7 @@
     {
      "pos": 8,
      "official": "טסלר יואל יעקב",
-     "display": null,
+     "display": "יואל יעקב טסלר",
      "gender": "M"
     },
     {
@@ -1497,7 +1497,7 @@
     {
      "pos": 16,
      "official": "גוטרמן יעקב אשר",
-     "display": null,
+     "display": "יעקב אשר גוטרמן",
      "gender": "M"
     },
     {
@@ -1533,7 +1533,7 @@
     {
      "pos": 22,
      "official": "שפירא מנחם מנדל",
-     "display": null,
+     "display": "מנחם מנדל שפירא",
      "gender": "M"
     },
     {
@@ -1551,7 +1551,7 @@
     {
      "pos": 25,
      "official": "ראוכברגר אליעזר צבי",
-     "display": null,
+     "display": "אליעזר צבי ראוכברגר",
      "gender": "M"
     },
     {
@@ -1606,7 +1606,7 @@
     {
      "pos": 1,
      "official": "דרעי אריה מכלוף",
-     "display": null,
+     "display": "אריה מכלוף דרעי",
      "gender": "M"
     },
     {
@@ -1618,13 +1618,13 @@
     {
      "pos": 3,
      "official": "מלכיאלי מיכאל משה",
-     "display": null,
+     "display": "מיכאל משה מלכיאלי",
      "gender": "M"
     },
     {
      "pos": 4,
      "official": "בן צור יואב",
-     "display": null,
+     "display": "יואב בן צור",
      "gender": "M"
     },
     {
@@ -1648,7 +1648,7 @@
     {
      "pos": 8,
      "official": "בוסו אוריאל מנחם",
-     "display": null,
+     "display": "אוריאל מנחם בוסו",
      "gender": "M"
     },
     {
@@ -1732,7 +1732,7 @@
     {
      "pos": 22,
      "official": "קקון יוסי יוסף חיים",
-     "display": null,
+     "display": "יוסי יוסף חיים קקון",
      "gender": "M"
     },
     {
@@ -1805,13 +1805,13 @@
     {
      "pos": 1,
      "official": "סמוטריץ בצלאל יואל",
-     "display": null,
+     "display": "בצלאל יואל סמוטריץ",
      "gender": "M"
     },
     {
      "pos": 2,
      "official": "פייגלין משה זלמן",
-     "display": null,
+     "display": "משה זלמן פייגלין",
      "gender": "M"
     },
     {
@@ -1823,7 +1823,7 @@
     {
      "pos": 4,
      "official": "רוטמן שמחה דן",
-     "display": null,
+     "display": "שמחה דן רוטמן",
      "gender": "M"
     },
     {
@@ -1841,13 +1841,13 @@
     {
      "pos": 7,
      "official": "סוכות צבי ידידיה",
-     "display": null,
+     "display": "צבי ידידיה סוכות",
      "gender": "M"
     },
     {
      "pos": 8,
      "official": "זאגא יצחק חי",
-     "display": null,
+     "display": "יצחק חי זאגא",
      "gender": "M"
     },
     {
@@ -2052,13 +2052,13 @@
     {
      "pos": 9,
      "official": "עזאם עבד אל כרים",
-     "display": null,
+     "display": "עבד אל כרים עזאם",
      "gender": "M"
     },
     {
      "pos": 10,
      "official": "אבו לבן אברהים",
-     "display": null,
+     "display": "אברהים אבו לבן",
      "gender": "M"
     },
     {
@@ -2263,7 +2263,7 @@
     {
      "pos": 11,
      "official": "רובין אריק מת'יו",
-     "display": null,
+     "display": "אריק מת'יו רובין",
      "gender": "M"
     },
     {
@@ -2336,13 +2336,13 @@
     {
      "pos": 5,
      "official": "אדומי יואב שלמה",
-     "display": null,
+     "display": "יואב שלמה אדומי",
      "gender": "M"
     },
     {
      "pos": 6,
      "official": "לנגמן אופיר שי",
-     "display": null,
+     "display": "אופיר שי לנגמן",
      "gender": "M"
     },
     {
@@ -2602,7 +2602,7 @@
     {
      "pos": 3,
      "official": "ליבמן אליהו שלום",
-     "display": null,
+     "display": "אליהו שלום ליבמן",
      "gender": "M"
     },
     {
@@ -2620,7 +2620,7 @@
     {
      "pos": 6,
      "official": "אביטן ישראל יאיר",
-     "display": null,
+     "display": "ישראל יאיר אביטן",
      "gender": "M"
     },
     {
