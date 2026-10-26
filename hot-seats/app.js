@@ -5,7 +5,7 @@
 const OUTLETS={"Channel 13":"חדשות 13","Channel 12":"חדשות 12","Israel Hayom":"ישראל היום","Channel 14":"ערוץ 14","Zman Yisrael":"זמן ישראל","Maariv":"מעריב","i24":"i24NEWS","Channel 16":"ערוץ 16","Walla":"וואלה","Kan 11":"כאן 11"};
 const G_LABEL={F:"אישה",M:"גבר",U:"מגדר לא אומת"};
 const state={src:"avg",g:"all"};
-let LISTS={},SOURCES=[],POLLS=[],WARN_STATIC=[];
+let LISTS={},SOURCES=[],POLLS=[],WARN_STATIC=[],DETAILS={};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmtDate=d=>{const [y,m,dd]=d.split("-");return `${+dd}.${+m}.${y.slice(2)}`};
@@ -19,7 +19,10 @@ function genderOf(c){return c.gender==="F"||c.gender==="M"?c.gender:"U"}
 
 async function load(){
   try{
-    const [p,c]=await Promise.all([fetch("polls.json").then(r=>{if(!r.ok)throw r;return r.json()}),fetch("candidates.json").then(r=>{if(!r.ok)throw r;return r.json()})]);
+    // candidate-details.json is optional: without it the page works, just without detail cards' content.
+    const details=fetch("candidate-details.json").then(r=>r.ok?r.json():{}).catch(()=>({}));
+    const [p,c,d]=await Promise.all([fetch("polls.json").then(r=>{if(!r.ok)throw r;return r.json()}),fetch("candidates.json").then(r=>{if(!r.ok)throw r;return r.json()}),details]);
+    DETAILS=d&&typeof d==="object"?d:{};
     init(p,c);
   }catch(e){
     const box=$("loadErr");box.hidden=false;
@@ -101,7 +104,7 @@ function render(){
     a.hotRows.forEach(r=>{
       if(r.missing){body+=`<div class="missing">מקום ${r.pos}: אין נתונים</div>`}
       else if(gMatch(r.g)){
-        body+=`<div class="cand${r.e1?" e1":""}"><span class="pos">${r.pos}</span><span>${esc(displayName(r.c))}</span><span class="tag ${r.g}">${G_LABEL[r.g]}</span><span class="st ${r.inside?"in":"out"}">${r.inside?"נכנס":"לא נכנס"}</span></div>`;
+        body+=`<div class="cand${r.e1?" e1":""}"><span class="pos">${r.pos}</span><span><button type="button" class="cname" data-key="${esc(party+"|"+r.pos)}">${esc(displayName(r.c))}</button></span><span class="tag ${r.g}">${G_LABEL[r.g]}</span><span class="st ${r.inside?"in":"out"}">${r.inside?"נכנס":"לא נכנס"}</span></div>`;
       }
       if(r.pos===N)body+=`<div class="cutline">קו המנדטים · ${N}</div>`;
     });
@@ -154,7 +157,7 @@ function renderCompare(){
         if(s.id!=="avg"&&N&&c.pos<=N)entered++;
         return `<td class="${s.id==="avg"?"avgcol":""}"><span class="cell ${cls}" title="${esc(s.label)}">${txt}</span></td>`;
       }).join("");
-      const name=c.missing?`<span class="cu">אין נתונים למקום הזה</span>`:`${esc(displayName(c))} <span class="tag ${genderOf(c)}">${G_LABEL[genderOf(c)]}</span>`;
+      const name=c.missing?`<span class="cu">אין נתונים למקום הזה</span>`:`<button type="button" class="cname" data-key="${esc(party+"|"+c.pos)}">${esc(displayName(c))}</button> <span class="tag ${genderOf(c)}">${G_LABEL[genderOf(c)]}</span>`;
       html+=`<tr><td>${c.pos}</td><td class="name">${name}</td>${cells}<td><b>${entered}</b>/${POLLS.length}</td></tr>`;
     });
   });
@@ -167,6 +170,7 @@ function renderCompare(){
 async function exportPng(btn){
   const el=$(btn.dataset.target);
   const old=btn.textContent;btn.textContent="מייצא…";btn.disabled=true;
+  document.body.classList.add("exporting");
   try{
     const url=await htmlToImage.toPng(el,{pixelRatio:2,backgroundColor:"#ffffff",width:el.scrollWidth,height:el.scrollHeight});
     const src=SOURCES.find(s=>s.id===state.src);
@@ -175,6 +179,46 @@ async function exportPng(btn){
     document.body.appendChild(a);a.click();a.remove();
     btn.textContent="נשמר";
   }catch(e){console.error(e);btn.textContent="הייצוא נכשל"}
+  finally{document.body.classList.remove("exporting")}
   setTimeout(()=>{btn.textContent=old;btn.disabled=false},1800);
 }
+
+// Candidate detail card. One dialog, opened from any .cname button.
+let cdOpener=null;
+function initials(name){return name.replace(/\(.*?\)/g,"").trim().split(/\s+/).slice(0,2).map(w=>w[0]||"").join("")}
+function safeUrl(u){try{const x=new URL(u);return x.protocol==="https:"?x.href:""}catch{return ""}}
+function openDetails(btn){
+  const key=btn.dataset.key;
+  const [party,posStr]=key.split("|");const pos=+posStr;
+  const cand=(LISTS[party]||[]).find(c=>c.pos===pos);
+  const d=DETAILS[key]||null;
+  const name=cand?displayName(cand):((d&&d.name)||"");
+  const img=d&&safeUrl(d.image||"");
+  const he=d&&safeUrl(d.wikiHe||""),en=d&&safeUrl(d.wikiEn||""),file=d&&safeUrl(d.imageFilePage||"");
+  const hasInfo=!!(d&&(d.summaryHe||he||en||img));
+  const avatar=`<div class="cd-avatar" aria-hidden="true">${esc(initials(name))}</div>`;
+  const credit=img&&(d.imageCredit||d.imageLicense)?`<p class="cd-credit">תמונה: ${esc(d.imageCredit||"")}${d.imageLicense?` · ${esc(d.imageLicense)}`:""} · ${file?`<a href="${esc(file)}" target="_blank" rel="noopener">ויקישיתוף</a>`:"ויקישיתוף"}</p>`:"";
+  $("cdBody").innerHTML=`
+    <div class="cd-head">
+      ${img?`<img class="cd-img" src="${esc(img)}" alt="${esc(name)}" loading="lazy" referrerpolicy="no-referrer">`:avatar}
+      <div><h2 id="cdTitle">${esc(name)}</h2>
+        <div class="cd-meta"><span class="cd-party">${esc(party)}</span><span>מקום ${pos} ברשימה</span></div></div>
+    </div>
+    ${hasInfo?`${d.summaryHe?`<p class="cd-sum">${esc(d.summaryHe)}</p>`:""}
+      ${d.matchConfidence==="medium"?`<p class="cd-note">ההתאמה בין המועמד לבין הערך בוויקיפדיה לא אומתה במלואה.</p>`:""}
+      ${he||en?`<div class="cd-links">${he?`<a class="cd-btn" href="${esc(he)}" target="_blank" rel="noopener">ויקיפדיה</a>`:""}${en?`<a class="cd-btn" href="${esc(en)}" target="_blank" rel="noopener" lang="en">English</a>`:""}</div>`:""}
+      ${credit}`:`<p class="cd-empty">אין מידע נוסף זמין</p>`}`;
+  const im=$("cdBody").querySelector(".cd-img");
+  if(im)im.addEventListener("error",()=>{im.outerHTML=avatar},{once:true});
+  cdOpener=btn;
+  const dlg=$("cdModal");
+  dlg.showModal();
+  $("cdClose").focus();
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest(".cname");
+  if(b){openDetails(b);return}
+  if(e.target===$("cdModal")||e.target.closest("#cdClose"))$("cdModal").close();
+});
+$("cdModal").addEventListener("close",()=>{if(cdOpener&&document.contains(cdOpener))cdOpener.focus();cdOpener=null});
 load();
