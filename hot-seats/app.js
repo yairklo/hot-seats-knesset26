@@ -233,18 +233,28 @@ function openDetails(btn){
   const he=d&&safeUrl(d.wikiHe||""),en=d&&safeUrl(d.wikiEn||""),file=d&&safeUrl(d.imageFilePage||"");
   const hasInfo=!!(d&&(d.summaryHe||he||en||img));
   const avatar=`<div class="cd-avatar" aria-hidden="true">${esc(initials(name))}</div>`;
-  const credit=img&&(d.imageCredit||d.imageLicense)?`<p class="cd-credit">תמונה: ${esc(d.imageCredit||"")}${d.imageLicense?` · ${esc(d.imageLicense)}`:""} · ${file?`<a href="${esc(file)}" target="_blank" rel="noopener">ויקישיתוף</a>`:"ויקישיתוף"}</p>`:"";
+  // Image file pages usually live on Commons; a few are on Hebrew Wikipedia.
+  const fileLabel=file&&new URL(file).hostname==="he.wikipedia.org"?"ויקיפדיה":"ויקישיתוף";
+  const credit=img&&(d.imageCredit||d.imageLicense)?`<p class="cd-credit">תמונה: ${esc(d.imageCredit||"")}${d.imageLicense?` · ${esc(d.imageLicense)}`:""} · ${file?`<a href="${esc(file)}" target="_blank" rel="noopener">${fileLabel}</a>`:"ויקישיתוף"}</p>`:"";
+  // Summary source: party-site paraphrases credit the party site; everything else with a wiki link credits Wikipedia.
+  const sumSrc=d&&d.sources&&d.sources.summaryHe;
+  const fromParty=!!(sumSrc&&sumSrc.method==="paraphrased from party candidate page");
+  const partySrc=fromParty?allowedUrl(sumSrc.url):"";
+  const srcLine=!d||!d.summaryHe?"":fromParty
+    ?`<p class="cd-src">${partySrc?`<a href="${esc(partySrc)}" target="_blank" rel="noopener noreferrer">מתוך אתר המפלגה</a>`:"מתוך אתר המפלגה"}</p>`
+    :(he?`<p class="cd-src"><a href="${esc(he)}" target="_blank" rel="noopener">מתוך ויקיפדיה, CC BY-SA</a></p>`:"");
+  const links=profileLinks(d);
   $("cdBody").innerHTML=`
     <div class="cd-head">
       ${img?`<img class="cd-img" src="${esc(img)}" alt="${esc(name)}" loading="lazy" referrerpolicy="no-referrer">`:avatar}
       <div><h2 id="cdTitle">${esc(name)}</h2>
         <div class="cd-meta"><span class="cd-party">${esc(party)}</span><span>מקום ${pos} ברשימה</span></div></div>
     </div>
-    ${hasInfo?`${d.summaryHe?`<p class="cd-sum">${esc(d.summaryHe)}</p>${he?`<p class="cd-src"><a href="${esc(he)}" target="_blank" rel="noopener">מתוך ויקיפדיה, CC BY-SA</a></p>`:""}`:""}
+    ${hasInfo?`${d.summaryHe?`<p class="cd-sum">${esc(d.summaryHe)}</p>${srcLine}`:""}
       ${d.matchConfidence==="medium"?`<p class="cd-note">ההתאמה בין המועמד לבין הערך בוויקיפדיה לא אומתה במלואה.</p>`:""}
       ${he||en?`<div class="cd-links">${he?`<a class="cd-btn" href="${esc(he)}" target="_blank" rel="noopener">ויקיפדיה</a>`:""}${en?`<a class="cd-btn" href="${esc(en)}" target="_blank" rel="noopener" lang="en">English</a>`:""}</div>`:""}
-      ${profileLinks(d)}
-      ${credit}`:`<p class="cd-empty">אין מידע נוסף זמין</p>${profileLinks(d)}`}`;
+      ${links}
+      ${credit}`:`<p class="cd-empty">${links?"קישורים:":"אין מידע נוסף זמין"}</p>${links}`}`;
   const im=$("cdBody").querySelector(".cd-img");
   if(im)im.addEventListener("error",()=>{im.outerHTML=avatar},{once:true});
   cdOpener=btn;
