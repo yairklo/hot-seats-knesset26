@@ -158,7 +158,7 @@
     {
      "pos": 25,
      "official": "פולק דוד ליאן",
-     "display": null,
+     "display": "ליאן פולק דוד",
      "gender": "M"
     },
     {
@@ -375,7 +375,7 @@
     {
      "pos": 28,
      "official": "לרנר שלמה יוסף",
-     "display": null,
+     "display": "שלמה יוסף לרנר",
      "gender": "M"
     },
     {
@@ -387,7 +387,7 @@
     {
      "pos": 30,
      "official": "פרץ משה בנימין",
-     "display": null,
+     "display": "משה בנימין פרץ",
      "gender": "M"
     },
     {
@@ -556,7 +556,7 @@
     {
      "pos": 25,
      "official": "פלוטניצקי צבי גריגורי",
-     "display": null,
+     "display": "צבי גריגורי פלוטניצקי",
      "gender": "M"
     },
     {
@@ -894,7 +894,7 @@
     {
      "pos": 15,
      "official": "בן שיטרית ישראל יאיר",
-     "display": null,
+     "display": "ישראל יאיר בן שיטרית",
      "gender": "M"
     },
     {
@@ -1045,7 +1045,7 @@
     {
      "pos": 7,
      "official": "דורפמן חנמאל שיראי",
-     "display": null,
+     "display": "חנמאל שיראי דורפמן",
      "gender": "M"
     },
     {
@@ -1057,13 +1057,13 @@
     {
      "pos": 9,
      "official": "גולדברגר יוסף יצחק",
-     "display": null,
+     "display": "יוסף יצחק גולדברגר",
      "gender": "M"
     },
     {
      "pos": 10,
      "official": "ניימן איתיאל יעקב",
-     "display": null,
+     "display": "איתיאל יעקב ניימן",
      "gender": "M"
     },
     {
@@ -1413,7 +1413,7 @@
     {
      "pos": 2,
      "official": "גולדקנופ יצחק יששכר",
-     "display": null,
+     "display": "יצחק יששכר גולדקנופ",
      "gender": "M"
     },
     {
@@ -1431,7 +1431,7 @@
     {
      "pos": 5,
      "official": "רוזנטל משה עזריאל",
-     "display": null,
+     "display": "משה עזריאל רוזנטל",
      "gender": "M"
     },
     {
@@ -1443,7 +1443,7 @@
     {
      "pos": 7,
      "official": "וויספיש יהודה לייב",
-     "display": null,
+     "display": "יהודה לייב וויספיש",
      "gender": "M"
     },
     {
@@ -1690,7 +1690,7 @@
     {
      "pos": 15,
      "official": "צדקה יעקב ישראל",
-     "display": null,
+     "display": "יעקב ישראל צדקה",
      "gender": "M"
     },
     {
@@ -1835,7 +1835,7 @@
     {
      "pos": 6,
      "official": "איתם איתמר מרדכי",
-     "display": null,
+     "display": "איתמר מרדכי איתם",
      "gender": "M"
     },
     {
@@ -2022,7 +2022,7 @@
     {
      "pos": 4,
      "official": "אל הואשלה ואליד",
-     "display": null,
+     "display": "ואליד אל הואשלה",
      "gender": "M"
     },
     {
@@ -2040,13 +2040,13 @@
     {
      "pos": 7,
      "official": "אל טורי איברהים",
-     "display": null,
+     "display": "איברהים אל טורי",
      "gender": "M"
     },
     {
      "pos": 8,
      "official": "מסרי עבד אל כרים",
-     "display": null,
+     "display": "עבד אל כרים מסרי",
      "gender": "M"
     },
     {
@@ -2221,7 +2221,7 @@
     {
      "pos": 4,
      "official": "בן ארי ערן",
-     "display": null,
+     "display": "ערן בן ארי",
      "gender": "M"
     },
     {
@@ -2245,7 +2245,7 @@
     {
      "pos": 8,
      "official": "עזרא אביב חיים",
-     "display": null,
+     "display": "אביב חיים עזרא",
      "gender": "M"
     },
     {
@@ -2275,7 +2275,7 @@
     {
      "pos": 13,
      "official": "הר ציון משה",
-     "display": null,
+     "display": "משה הר ציון",
      "gender": "M"
     },
     {
@@ -2299,7 +2299,7 @@
     {
      "pos": 17,
      "official": "לוי דור יצחק",
-     "display": null,
+     "display": "דור יצחק לוי",
      "gender": "M"
     }
    ]
@@ -2456,7 +2456,7 @@
     {
      "pos": 25,
      "official": "עמית אריה אליעד",
-     "display": null,
+     "display": "אריה אליעד עמית",
      "gender": "M"
     },
     {
@@ -2468,7 +2468,7 @@
     {
      "pos": 27,
      "official": "סלונימסקי יוגב יבגני",
-     "display": null,
+     "display": "יוגב יבגני סלונימסקי",
      "gender": "M"
     },
     {
@@ -2511,7 +2511,7 @@
     {
      "pos": 1,
      "official": "ליטנר פנחס מרדכי",
-     "display": null,
+     "display": "פנחס מרדכי ליטנר",
      "gender": "M"
     },
     {
@@ -2559,13 +2559,13 @@
     {
      "pos": 9,
      "official": "גוטליב חיים יהודה לייב",
-     "display": null,
+     "display": "חיים יהודה לייב גוטליב",
      "gender": "M"
     },
     {
      "pos": 10,
      "official": "קאופמן יונה שלמה",
-     "display": null,
+     "display": "יונה שלמה קאופמן",
      "gender": "M"
     },
     {

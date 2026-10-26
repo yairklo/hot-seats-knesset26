@@ -205,7 +205,7 @@ function openDetails(btn){
       <div><h2 id="cdTitle">${esc(name)}</h2>
         <div class="cd-meta"><span class="cd-party">${esc(party)}</span><span>מקום ${pos} ברשימה</span></div></div>
     </div>
-    ${hasInfo?`${d.summaryHe?`<p class="cd-sum">${esc(d.summaryHe)}</p>`:""}
+    ${hasInfo?`${d.summaryHe?`<p class="cd-sum">${esc(d.summaryHe)}</p>${he?`<p class="cd-src"><a href="${esc(he)}" target="_blank" rel="noopener">מתוך ויקיפדיה, CC BY-SA</a></p>`:""}`:""}
       ${d.matchConfidence==="medium"?`<p class="cd-note">ההתאמה בין המועמד לבין הערך בוויקיפדיה לא אומתה במלואה.</p>`:""}
       ${he||en?`<div class="cd-links">${he?`<a class="cd-btn" href="${esc(he)}" target="_blank" rel="noopener">ויקיפדיה</a>`:""}${en?`<a class="cd-btn" href="${esc(en)}" target="_blank" rel="noopener" lang="en">English</a>`:""}</div>`:""}
       ${credit}`:`<p class="cd-empty">אין מידע נוסף זמין</p>`}`;
