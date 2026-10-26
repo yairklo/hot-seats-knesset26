@@ -12,7 +12,68 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: אתי עטייה",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:ח\"כ_אתי_חוה_עטיה.png"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:ח\"כ_אתי_חוה_עטיה.png",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/992",
+  "social": {
+   "x": "https://x.com/ettyatia",
+   "facebook": "https://www.facebook.com/EttiHavaAtiya",
+   "instagram": "https://www.instagram.com/ettyhavaatia",
+   "telegram": "https://t.me/etiatia"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=992&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "חוה אתי עטייה",
+    "faction": "הליכוד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=992&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q63111202#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=992&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q63111202#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q63111202#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.telegram": {
+    "url": "https://www.wikidata.org/wiki/Q63111202#P3789",
+    "method": "Wikidata P3789",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/אתי_עטייה",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:ח\"כ_אתי_חוה_עטיה.png",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q63111202"
  },
  "הליכוד|21": {
   "name": "בעז ביסמוט",
@@ -27,7 +88,59 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: בועז ביסמוט",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Boaz_Bismuth_(cropped).jpeg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Boaz_Bismuth_(cropped).jpeg",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1095",
+  "social": {
+   "x": "https://x.com/BismuthBoaz",
+   "facebook": "https://www.facebook.com/boaz.bismuth",
+   "telegram": "https://t.me/BismuthBoaz"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1095&languageKey=he",
+    "method": "name match to current-MK list (Knesset API GetMks)",
+    "mkName": "בועז ביסמוט",
+    "faction": "הליכוד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q12404410#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q12404410#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.telegram": {
+    "url": "https://www.wikidata.org/wiki/Q12404410#P3789",
+    "method": "Wikidata P3789",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/בועז_ביסמוט",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Boaz_Bismuth_(cropped).jpeg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q12404410"
  },
  "הליכוד|22": {
   "name": "דוד ביטן",
@@ -42,7 +155,63 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:David_Bitan_(AS5V7068).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/914",
+  "social": {
+   "x": "https://x.com/davidbitan",
+   "facebook": "https://www.facebook.com/David-Bitan-%D7%93%D7%95%D7%93-%D7%91%D7%99%D7%98%D7%9F-544236812346549",
+   "instagram": "https://www.instagram.com/david_bitan_official",
+   "youtube": "https://www.youtube.com/channel/UCmeEUH0OdCIR5_8LCWlWPpA"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=914&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "דוד ביטן",
+    "faction": "הליכוד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=914&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q18755548#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=914&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=914&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=914&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/דוד_ביטן",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:David_Bitan_(AS5V7068).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p1",
+   "p2",
+   "p4",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q18755548"
  },
  "הליכוד|23": {
   "name": "שלמה קרעי",
@@ -57,7 +226,57 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:חבר_הכנסת_ד״ר_שלמה_קרעי.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1011",
+  "social": {
+   "x": "https://x.com/shlomo_karhi",
+   "facebook": "https://www.facebook.com/SHLOMO2016",
+   "telegram": "https://t.me/shlomo_karhi"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1011&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "שלמה קרעי",
+    "faction": "הליכוד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1011&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q63124881#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q63124881#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.telegram": {
+    "url": "https://www.wikidata.org/wiki/Q63124881#P3789",
+    "method": "Wikidata P3789",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/שלמה_קרעי",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:חבר_הכנסת_ד״ר_שלמה_קרעי.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p1",
+   "p2",
+   "p4",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q63124881"
  },
  "הליכוד|24": {
   "name": "ניר ברקת",
@@ -72,7 +291,64 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Nir_Barkat.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/974",
+  "social": {
+   "x": "https://x.com/NirBarkat",
+   "facebook": "https://www.facebook.com/nir.barkat",
+   "instagram": "https://www.instagram.com/nir_barkat",
+   "telegram": "https://t.me/nbarkat"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=974&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "ניר ברקת",
+    "faction": "הליכוד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q468394#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q468394#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q468394#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.telegram": {
+    "url": "https://www.wikidata.org/wiki/Q468394#P3789",
+    "method": "Wikidata P3789",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "officialWebsite": {
+    "url": "https://www.barkat.org.il",
+    "source": "https://www.wikidata.org/wiki/Q468394#P856",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/ניר_ברקת",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Nir_Barkat.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p6"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q468394"
  },
  "ביחד|12": {
   "name": "בן ברק רם",
@@ -87,7 +363,66 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Ram_Ben-Barak_(ISH_6740).jpg",
-  "matchNote": "extract says יש עתיד (now ביחד)"
+  "matchNote": "extract says יש עתיד (now ביחד)",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1022",
+  "social": {
+   "x": "https://x.com/Ram_Ben_Barak",
+   "facebook": "https://www.facebook.com/rambenbarak",
+   "instagram": "https://www.instagram.com/ram_ben_barak"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1022&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "רם בן ברק",
+    "faction": "יש עתיד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1022&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q18577963#P2002",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%A8%D7%9D-%D7%91%D7%9F-%D7%91%D7%A8%D7%A7/",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1022&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/רם_בן_ברק",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ram_Ben-Barak_(ISH_6740).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%A8%D7%9D-%D7%91%D7%9F-%D7%91%D7%A8%D7%A7/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.instagram": {
+    "url": "https://be-yahad.org.il/team/%D7%A8%D7%9D-%D7%91%D7%9F-%D7%91%D7%A8%D7%A7/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p2",
+   "p3",
+   "p4",
+   "p6",
+   "p8",
+   "p9"
+  ],
+  "partyPage": "https://be-yahad.org.il/team/%D7%A8%D7%9D-%D7%91%D7%9F-%D7%91%D7%A8%D7%A7/",
+  "wikidata": "https://www.wikidata.org/wiki/Q18577963"
  },
  "ביחד|13": {
   "name": "אמיר סטרוגו",
@@ -95,13 +430,66 @@
   "position": 13,
   "wikiHe": null,
   "wikiEn": null,
-  "summaryHe": null,
+  "summaryHe": "אמיר סטרוגו הוא מנכ\"ל תנועת הנוער \"אחריי!\" לשעבר, תושב קיבוץ כרמים.",
   "image": null,
   "imageCredit": null,
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "facebook": "https://www.facebook.com/share/1E6CZSTmDa",
+   "instagram": "https://www.instagram.com/amir.strugo",
+   "tiktok": "https://www.tiktok.com/@amir.strugo",
+   "linkedin": "https://www.linkedin.com/in/amir-strugo-5a3917245"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%9E%D7%99%D7%A8-%D7%A1%D7%98%D7%A8%D7%95%D7%92%D7%95/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%9E%D7%99%D7%A8-%D7%A1%D7%98%D7%A8%D7%95%D7%92%D7%95/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%9E%D7%99%D7%A8-%D7%A1%D7%98%D7%A8%D7%95%D7%92%D7%95/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%9E%D7%99%D7%A8-%D7%A1%D7%98%D7%A8%D7%95%D7%92%D7%95/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%9E%D7%99%D7%A8-%D7%A1%D7%98%D7%A8%D7%95%D7%92%D7%95/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "summaryHe": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%9E%D7%99%D7%A8-%D7%A1%D7%98%D7%A8%D7%95%D7%92%D7%95/",
+    "method": "paraphrased from party candidate page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://be-yahad.org.il/team/%D7%90%D7%9E%D7%99%D7%A8-%D7%A1%D7%98%D7%A8%D7%95%D7%92%D7%95/"
  },
  "ביחד|14": {
   "name": "שירי נאור",
@@ -115,22 +503,146 @@
   "imageLicense": "Cc-by-sa-3.0",
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:PGE_7537_(1).jpg",
-  "matchNote": "article title נאור שירי; app displays 'שירי נאור' (official name order swapped by displayName)"
+  "imageFilePage": "https://he.wikipedia.org/wiki/קובץ:PGE_7537_(1).jpg",
+  "matchNote": "article title נאור שירי; app displays 'שירי נאור' (official name order swapped by displayName)",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1112",
+  "social": {
+   "x": "https://x.com/naorshiri",
+   "facebook": "https://www.facebook.com/mkNaorShiri",
+   "instagram": "https://www.instagram.com/naorshiri",
+   "tiktok": "https://www.tiktok.com/@naorshiri"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1112&languageKey=he",
+    "method": "name match to current-MK list (Knesset API GetMks)",
+    "mkName": "נאור שירי",
+    "faction": "יש עתיד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1112&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q115051871#P2002",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%A0%D7%90%D7%95%D7%A8-%D7%A9%D7%99%D7%A8%D7%99/",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1112&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q115051871#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q115051871#P2003",
+    "method": "Wikidata P2003",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%A0%D7%90%D7%95%D7%A8-%D7%A9%D7%99%D7%A8%D7%99/",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://www.wikidata.org/wiki/Q115051871#P7085",
+    "method": "Wikidata P7085",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%A0%D7%90%D7%95%D7%A8-%D7%A9%D7%99%D7%A8%D7%99/",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/נאור_שירי",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://he.wikipedia.org/wiki/קובץ:PGE_7537_(1).jpg",
+    "method": "he.wikipedia local file, CC BY-SA 3.0 (not on Commons)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%A0%D7%90%D7%95%D7%A8-%D7%A9%D7%99%D7%A8%D7%99/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": "https://be-yahad.org.il/team/%D7%A0%D7%90%D7%95%D7%A8-%D7%A9%D7%99%D7%A8%D7%99/",
+  "wikidata": "https://www.wikidata.org/wiki/Q115051871"
  },
  "ביחד|15": {
   "name": "ניסן זאבי",
   "party": "ביחד",
   "position": 15,
-  "wikiHe": null,
+  "wikiHe": "https://he.wikipedia.org/wiki/ניסן_זאבי",
   "wikiEn": null,
-  "summaryHe": null,
-  "image": null,
-  "imageCredit": null,
-  "imageLicense": null,
+  "summaryHe": "ניסן זאבי (נולד ב-1983) הוא יזם עסקי וחברתי ישראלי, ממייסדי ארגון לובי 1701 ותנועת \"הביתה. חוזרים לגליל\". לקראת הבחירות לכנסת ה-26 הצטרף לרשימת ביחד בראשות נפתלי בנט.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Nisan_Zeevi.jpg/500px-Nisan_Zeevi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "imageCredit": "דרור ארצי",
+  "imageLicense": "CC BY-SA 4.0",
   "source": null,
-  "matchConfidence": "none",
-  "matchNote": "possible article 'ניסן זאבי' has same name but extract does not mention a political role; not accepted"
+  "matchConfidence": "high",
+  "matchNote": "article mentions 2026 candidacy for this party",
+  "social": {
+   "facebook": "https://www.facebook.com/nisan.zeevi",
+   "instagram": "https://www.instagram.com/nisanzeevi",
+   "linkedin": "https://www.linkedin.com/in/nisanzeevi"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%A0%D7%99%D7%A1%D7%9F-%D7%96%D7%90%D7%91%D7%99/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/ניסן_זאבי",
+    "method": "article text (2026) confirms candidacy for this party",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Nisan_Zeevi.jpg",
+    "method": "Commons imageinfo/extmetadata",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://he.wikipedia.org/wiki/ניסן_זאבי",
+    "method": "paraphrased from article",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q137259525#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q137259525#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://www.wikidata.org/wiki/Q137259525#P6634",
+    "method": "Wikidata P6634",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p5",
+   "p7",
+   "p8"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://be-yahad.org.il/team/%D7%A0%D7%99%D7%A1%D7%9F-%D7%96%D7%90%D7%91%D7%99/",
+  "wikidata": "https://www.wikidata.org/wiki/Q137259525",
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Nisan_Zeevi.jpg"
  },
  "ביחד|16": {
   "name": "ולדימיר בליאק",
@@ -145,7 +657,70 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:ח״כ_ולדימיר_בליאק.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1049",
+  "social": {
+   "x": "https://x.com/VladimirBeliak",
+   "facebook": "https://www.facebook.com/v.beliak",
+   "instagram": "https://www.instagram.com/vladimirbeliak",
+   "tiktok": "https://www.tiktok.com/@vladimirbeliak"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1049&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "ולדימיר בליאק",
+    "faction": "יש עתיד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q104696632#P2002",
+    "method": "Wikidata P2002",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%95%D7%9C%D7%93%D7%99%D7%9E%D7%99%D7%A8-%D7%91%D7%9C%D7%99%D7%90%D7%A7/",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q104696632#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/ולדימיר_בליאק",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:ח״כ_ולדימיר_בליאק.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%95%D7%9C%D7%93%D7%99%D7%9E%D7%99%D7%A8-%D7%91%D7%9C%D7%99%D7%90%D7%A7/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.instagram": {
+    "url": "https://be-yahad.org.il/team/%D7%95%D7%9C%D7%93%D7%99%D7%9E%D7%99%D7%A8-%D7%91%D7%9C%D7%99%D7%90%D7%A7/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://be-yahad.org.il/team/%D7%95%D7%9C%D7%93%D7%99%D7%9E%D7%99%D7%A8-%D7%91%D7%9C%D7%99%D7%90%D7%A7/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p5",
+   "p7",
+   "p8"
+  ],
+  "partyPage": "https://be-yahad.org.il/team/%D7%95%D7%9C%D7%93%D7%99%D7%9E%D7%99%D7%A8-%D7%91%D7%9C%D7%99%D7%90%D7%A7/",
+  "wikidata": "https://www.wikidata.org/wiki/Q104696632"
  },
  "הציונות הדתית|5": {
   "name": "צבי מור",
@@ -160,7 +735,35 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: צביקה מור",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:צביקה_מור_(cropped).jpg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:צביקה_מור_(cropped).jpg",
+  "social": {},
+  "sources": {
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/צביקה_מור",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:צביקה_מור_(cropped).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q135451048"
  },
  "הציונות הדתית|6": {
   "name": "איתם איתמר מרדכי",
@@ -174,7 +777,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הציונות הדתית|7": {
   "name": "סוכות צבי ידידיה",
@@ -189,7 +809,62 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:צבי_סוכות_(cropped).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1121",
+  "social": {
+   "x": "https://x.com/tzvisuccot",
+   "facebook": "https://www.facebook.com/tzvisokot",
+   "instagram": "https://www.instagram.com/tzvisuccot"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1121&languageKey=he",
+    "method": "name match to current-MK list (Knesset API GetMks)",
+    "mkName": "צבי ידידיה סוכות",
+    "faction": "הציונות הדתית בראשות בצלאל סמוטריץ'",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q50379434#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q50379434#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q50379434#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/צבי_סוכות",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:צבי_סוכות_(cropped).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q50379434"
  },
  "הציונות הדתית|8": {
   "name": "זאגא יצחק חי",
@@ -203,7 +878,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הציונות הדתית|9": {
   "name": "רעות בן חיים",
@@ -217,7 +909,19 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p3",
+   "p5",
+   "p6",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "עוצמה יהודית|6": {
   "name": "יצחק קרויזר",
@@ -232,7 +936,48 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:חבר_הכנסת_יצחק_קרויזר.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1114",
+  "social": {
+   "x": "https://x.com/Yitzik_kroizer"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1114&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "יצחק קרויזר",
+    "faction": "עוצמה יהודית בראשות איתמר בן גביר",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q115952982#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יצחק_קרויזר",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:חבר_הכנסת_יצחק_קרויזר.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q115952982"
  },
  "עוצמה יהודית|7": {
   "name": "דורפמן חנמאל שיראי",
@@ -246,7 +991,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "עוצמה יהודית|8": {
   "name": "אליהו צחי יצחק",
@@ -260,7 +1022,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "עוצמה יהודית|9": {
   "name": "גולדברגר יוסף יצחק",
@@ -274,7 +1053,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "עוצמה יהודית|10": {
   "name": "ניימן איתיאל יעקב",
@@ -288,7 +1084,23 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "ש\"ס|6": {
   "name": "עמוס דרור דוד",
@@ -302,7 +1114,23 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "ש\"ס|7": {
   "name": "משה אבוטבול",
@@ -317,7 +1145,78 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Moshe_Abutbul_(ISH_9834).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1029",
+  "social": {
+   "x": "https://x.com/Abutbulm",
+   "facebook": "https://www.facebook.com/MAbutbul",
+   "instagram": "https://www.instagram.com/mkabutbulmoshe",
+   "tiktok": "https://www.tiktok.com/@mabutbul",
+   "youtube": "https://www.youtube.com/channel/UCNxQ0j4kKFVR9x1Ll0pr_Ew"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1029&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "משה אבוטבול",
+    "faction": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1029&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q7054034#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1029&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q7054034#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1029&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q7054034#P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1029&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1029&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q7054034#P7085",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/משה_אבוטבול",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Moshe_Abutbul_(ISH_9834).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q7054034"
  },
  "ש\"ס|8": {
   "name": "בוסו אוריאל מנחם",
@@ -332,7 +1231,57 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:אוריאל_בוסו_לעמ.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1039",
+  "social": {
+   "x": "https://x.com/BussoUriel",
+   "facebook": "https://www.facebook.com/oorielb"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1039&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "אוריאל בוסו",
+    "faction": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1039&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q96369448#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q96369448#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/אוריאל_בוסו",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:אוריאל_בוסו_לעמ.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q96369448"
  },
  "ש\"ס|9": {
   "name": "יוסף טייב",
@@ -347,7 +1296,63 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: יוסי טייב",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Joseph_Taieb_(ZAC_3485).jpg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Joseph_Taieb_(ZAC_3485).jpg",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1043",
+  "social": {
+   "x": "https://x.com/yossitaieb",
+   "facebook": "https://www.facebook.com/YossiTaiebKnesset",
+   "instagram": "https://www.instagram.com/mkyossitaieb"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1043&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "יוסף טייב",
+    "faction": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1043&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q96754353#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1043&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q96754353#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q96754353#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יוסי_טייב",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Joseph_Taieb_(ZAC_3485).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q96754353"
  },
  "ש\"ס|10": {
   "name": "יונתן מישרקי",
@@ -362,7 +1367,41 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Yonatan_Mashriki_2026_portrait.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1115",
+  "social": {},
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1115&languageKey=he",
+    "method": "name match to current-MK list (Knesset API GetMks)",
+    "mkName": "יונתן מישרקי",
+    "faction": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יונתן_מישרקי",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yonatan_Mashriki_2026_portrait.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q115974304"
  },
  "יהדות התורה|5": {
   "name": "רוזנטל משה עזריאל",
@@ -376,7 +1415,20 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p1",
+   "p2",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "יהדות התורה|6": {
   "name": "אלי שטארק",
@@ -390,7 +1442,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "יהדות התורה|7": {
   "name": "וויספיש יהודה לייב",
@@ -404,7 +1473,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "יהדות התורה|8": {
   "name": "טסלר יואל יעקב",
@@ -419,7 +1505,43 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Jacob_Tessler_(R_H_3994).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/996",
+  "social": {},
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=996&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "יעקב טסלר",
+    "faction": "יהדות התורה",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יעקב_טסלר",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Jacob_Tessler_(R_H_3994).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q61359772"
  },
  "יהדות התורה|9": {
   "name": "דוד זלץ",
@@ -433,7 +1555,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "ישראל ביתנו|6": {
   "name": "שרון שרעבי",
@@ -447,7 +1586,23 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "ישראל ביתנו|7": {
   "name": "חמד עמאר",
@@ -462,7 +1617,75 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Hamad_Amar_(E32J0875).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/837",
+  "social": {
+   "x": "https://x.com/hamad_amar11",
+   "facebook": "https://www.facebook.com/profile.php?id=100005349704607",
+   "instagram": "https://www.instagram.com/hamad_amar1",
+   "tiktok": "https://www.tiktok.com/@hamad_amar",
+   "youtube": "https://www.youtube.com/channel/UCgxCxQy7Ua4MtkJWZd3-2kw"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=837&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "חמד עמאר",
+    "faction": "ישראל ביתנו",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=837&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q1572575#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=837&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q1572575#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q1572575#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://www.wikidata.org/wiki/Q1572575#P7085",
+    "method": "Wikidata P7085",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/חמד_עמאר",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hamad_Amar_(E32J0875).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q1572575"
  },
  "ישראל ביתנו|8": {
   "name": "יבגני סובה",
@@ -477,7 +1700,49 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Evgeny_Sova_(SHL_8643).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/994",
+  "social": {
+   "facebook": "https://www.facebook.com/evgeny.sova"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=994&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "יבגני סובה",
+    "faction": "ישראל ביתנו",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=994&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יבגני_סובה",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Evgeny_Sova_(SHL_8643).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q63183722"
  },
  "ישראל ביתנו|9": {
   "name": "אלוירה קוליחמן",
@@ -491,7 +1756,23 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "ישראל ביתנו|10": {
   "name": "אילוז דן אליהו יעקב",
@@ -506,7 +1787,51 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Dan_Illouz_(crop).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "x": "https://x.com/dillouz",
+   "facebook": "https://www.facebook.com/danillouz",
+   "instagram": "https://www.instagram.com/danillouz"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q116065776#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q116065776#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q116065776#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/דן_אילוז",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Dan_Illouz_(crop).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p4",
+   "p5",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q116065776"
  },
  "רע\"מ|4": {
   "name": "אל הואשלה ואליד",
@@ -521,7 +1846,63 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: ואליד אלהואשלה",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Walid_Alhawashla_2025.jpg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Walid_Alhawashla_2025.jpg",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1093",
+  "social": {
+   "x": "https://x.com/WAlhwashla",
+   "facebook": "https://www.facebook.com/walhwashla",
+   "instagram": "https://www.instagram.com/waleed_alhwashla"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1093&languageKey=he",
+    "method": "name match to current-MK list (Knesset API GetMks)",
+    "mkName": "ואליד אלהואשלה",
+    "faction": "רע\"ם",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1093&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q115051875#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1093&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q115051875#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1093&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/ואליד_אלהואשלה",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Walid_Alhawashla_2025.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q115051875"
  },
  "רע\"מ|5": {
   "name": "אימאן ח'טיב יאסין",
@@ -536,7 +1917,50 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: אימאן ח'טיב-יאסין",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Iman_Khatib_Yassin_1.jpg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Iman_Khatib_Yassin_1.jpg",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1032",
+  "social": {
+   "facebook": "https://www.facebook.com/emanKhatYassin"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1032&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "אימאן ח'טיב יאסין",
+    "faction": "רע\"ם",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q87125690#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/אימאן_ח'טיב-יאסין",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Iman_Khatib_Yassin_1.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q87125690"
  },
  "רע\"מ|6": {
   "name": "יאסר חוג'יראת",
@@ -551,7 +1975,50 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Yasir_Hujeirat_(R_H_3858).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1103",
+  "social": {
+   "facebook": "https://www.facebook.com/yasir.hujeirat"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1103&languageKey=he",
+    "method": "name match to current-MK list (Knesset API GetMks)",
+    "mkName": "יאסר חוג'יראת",
+    "faction": "רע\"ם",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q115095747#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יאסר_חוג'יראת",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yasir_Hujeirat_(R_H_3858).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q115095747"
  },
  "רע\"מ|7": {
   "name": "אל טורי איברהים",
@@ -565,7 +2032,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "רע\"מ|8": {
   "name": "מסרי עבד אל כרים",
@@ -579,7 +2063,18 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p3",
+   "p6",
+   "p8"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הרשימה המשותפת|7": {
   "name": "מהא כרכבי סבאח",
@@ -593,7 +2088,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הרשימה המשותפת|8": {
   "name": "אחמד דראושה",
@@ -607,7 +2119,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הרשימה המשותפת|9": {
   "name": "נהאיה ושאחי",
@@ -621,7 +2150,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הרשימה המשותפת|10": {
   "name": "חסן אלנסאסרה",
@@ -635,7 +2181,24 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הרשימה המשותפת|11": {
   "name": "האיתם זחאלקה",
@@ -649,7 +2212,20 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הדמוקרטים|7": {
   "name": "עמרי רונן",
@@ -664,7 +2240,70 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Omri_Ronen_2024_(cropped).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "x": "https://x.com/omrironen24",
+   "facebook": "https://www.facebook.com/omri.ronen.77",
+   "instagram": "https://www.instagram.com/omrironen92",
+   "tiktok": "https://www.tiktok.com/@omri.ronen",
+   "linkedin": "https://www.linkedin.com/in/omri-ronen-203424263"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q133888758#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q133888758#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q133888758#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://www.wikidata.org/wiki/Q133888758#P7085",
+    "method": "Wikidata P7085",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://www.wikidata.org/wiki/Q133888758#P6634",
+    "method": "Wikidata P6634",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/עמרי_רונן_(פעיל_חברתי)",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Omri_Ronen_2024_(cropped).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://democrats.org.il/team/",
+    "method": "WebFetch 200 (box curl blocked); name listed on team page",
+    "verification": "WebFetch 200"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p2",
+   "p3",
+   "p4",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://democrats.org.il/team/",
+  "wikidata": "https://www.wikidata.org/wiki/Q133888758",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)"
  },
  "הדמוקרטים|8": {
   "name": "מיכל רוזין",
@@ -679,7 +2318,62 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:מיכל_רוזין_2026.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/895",
+  "social": {
+   "facebook": "https://www.facebook.com/michal.rozin",
+   "youtube": "https://www.youtube.com/channel/UCfDu2NXR0uKUnnRiWhiix7Q"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=895&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "מיכל רוזין",
+    "faction": "",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q3594005#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://www.wikidata.org/wiki/Q3594005#P2397",
+    "method": "Wikidata P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/מיכל_רוזין",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:מיכל_רוזין_2026.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://democrats.org.il/team/",
+    "method": "WebFetch 200 (box curl blocked); name listed on team page",
+    "verification": "WebFetch 200"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": "https://democrats.org.il/team/",
+  "wikidata": "https://www.wikidata.org/wiki/Q3594005",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)"
  },
  "הדמוקרטים|9": {
   "name": "משה רדמן",
@@ -694,7 +2388,79 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: משה רדמן אבוטבול",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Moshe_Radman.png"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Moshe_Radman.png",
+  "social": {
+   "x": "https://x.com/radmanmoshe",
+   "facebook": "https://www.facebook.com/mosheradman",
+   "instagram": "https://www.instagram.com/radmanmoshe",
+   "tiktok": "https://www.tiktok.com/@moshe1112223",
+   "youtube": "https://www.youtube.com/channel/UC6Bgk_XF-y-DHQ5hCbnl6og",
+   "linkedin": "https://www.linkedin.com/in/moshe-radman-abutbul-משה-רדמן-אבוטבול-🇮🇱-8a628260"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q117842279#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q117842279#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q117842279#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://www.wikidata.org/wiki/Q117842279#P7085",
+    "method": "Wikidata P7085",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://www.wikidata.org/wiki/Q117842279#P2397",
+    "method": "Wikidata P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://www.wikidata.org/wiki/Q117842279#P6634",
+    "method": "Wikidata P6634",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/משה_רדמן_אבוטבול",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Moshe_Radman.png",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://democrats.org.il/team/",
+    "method": "WebFetch 200 (box curl blocked); name listed on team page",
+    "verification": "WebFetch 200"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://democrats.org.il/team/",
+  "wikidata": "https://www.wikidata.org/wiki/Q117842279",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)"
  },
  "הדמוקרטים|10": {
   "name": "סומייה בשיר",
@@ -709,7 +2475,66 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: סומיה בשיר",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:145993_alternative_lighting_ceremonyalternative_independ_PikiWiki_Israel_(cropped).jpg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:145993_alternative_lighting_ceremonyalternative_independ_PikiWiki_Israel_(cropped).jpg",
+  "social": {
+   "x": "https://x.com/bashsomaya",
+   "facebook": "https://www.facebook.com/somaya.bashir.7",
+   "instagram": "https://www.instagram.com/bashirsomaya",
+   "tiktok": "https://www.tiktok.com/@humanity10.2022"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q139493335#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q139493335#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q139493335#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://www.wikidata.org/wiki/Q139493335#P7085",
+    "method": "Wikidata P7085",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "officialWebsite": {
+    "url": "https://somaya.onrender.com/",
+    "source": "https://www.wikidata.org/wiki/Q139493335#P856",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/סומיה_בשיר",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:145993_alternative_lighting_ceremonyalternative_independ_PikiWiki_Israel_(cropped).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q139493335"
  },
  "הדמוקרטים|11": {
   "name": "נמרוד שפר",
@@ -724,7 +2549,75 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Tat-Aluf_Nimrod_Shefer_1.jpg",
-  "matchNote": "retired general; party not in extract"
+  "matchNote": "retired general; party not in extract",
+  "social": {
+   "x": "https://x.com/NimrodSheffer",
+   "facebook": "https://www.facebook.com/nimrodsheffer",
+   "instagram": "https://www.instagram.com/nimrodsheffer_",
+   "tiktok": "https://www.tiktok.com/@sheffernimrod",
+   "linkedin": "https://www.linkedin.com/in/nimrod-sheffer-343461296"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q4523470#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q4523470#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q4523470#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://www.wikidata.org/wiki/Q4523470#P7085",
+    "method": "Wikidata P7085",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://www.wikidata.org/wiki/Q4523470#P6634",
+    "method": "Wikidata P6634",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "officialWebsite": {
+    "url": "https://nimrodsheffer.com/",
+    "source": "https://www.wikidata.org/wiki/Q4523470#P856",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/נמרוד_שפר",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tat-Aluf_Nimrod_Shefer_1.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://democrats.org.il/team/",
+    "method": "WebFetch 200 (box curl blocked); name listed on team page",
+    "verification": "WebFetch 200"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://democrats.org.il/team/",
+  "wikidata": "https://www.wikidata.org/wiki/Q4523470",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)"
  },
  "ישר!|20": {
   "name": "אליסף פרץ",
@@ -732,13 +2625,36 @@
   "position": 20,
   "wikiHe": null,
   "wikiEn": null,
-  "summaryHe": null,
+  "summaryHe": "אליסף פרץ הוא מנהל אגף חברה ונוער בעיריית ירושלים ומייסד עמותת \"האחים שלנו\" לתמיכה באחים שכולים.",
   "image": null,
   "imageCredit": null,
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {
+   "partyPage": {
+    "url": "https://yasharwitheisenkot.com/team-member/elisaf-peretz/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://yasharwitheisenkot.com/team-member/elisaf-peretz/",
+    "method": "paraphrased from party candidate page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p3",
+   "p5",
+   "p6",
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://yasharwitheisenkot.com/team-member/elisaf-peretz/"
  },
  "ישר!|21": {
   "name": "יפה טבג'ה",
@@ -746,13 +2662,41 @@
   "position": 21,
   "wikiHe": null,
   "wikiEn": null,
-  "summaryHe": null,
+  "summaryHe": "יפה טבג'ה היא יזמת חברתית ומייסדת מרכז החדשנות והיזמות MTech באשקלון.",
   "image": null,
   "imageCredit": null,
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {
+   "partyPage": {
+    "url": "https://yasharwitheisenkot.com/team-member/yaffa-tebeje/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://yasharwitheisenkot.com/team-member/yaffa-tebeje/",
+    "method": "paraphrased from party candidate page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://yasharwitheisenkot.com/team-member/yaffa-tebeje/"
  },
  "ישר!|22": {
   "name": "ניר חג'בי",
@@ -766,7 +2710,37 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "facebook": "https://www.facebook.com/hagbi.nir"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://yasharwitheisenkot.com/team-member/nir-hagbi/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://yasharwitheisenkot.com/team-member/nir-hagbi/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://yasharwitheisenkot.com/team-member/nir-hagbi/"
  },
  "ישר!|23": {
   "name": "רון ברקאי",
@@ -774,13 +2748,39 @@
   "position": 23,
   "wikiHe": null,
   "wikiEn": null,
-  "summaryHe": null,
+  "summaryHe": "עו\"ד רון ברקאי הוא איש חברה אזרחית, לשעבר מנכ\"ל ארגון הגג של העמותות והארגונים החברתיים בישראל.",
   "image": null,
   "imageCredit": null,
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": "possible article 'רון ברקאי (professor)' has same name but extract does not mention a political role; not accepted"
+  "matchNote": "possible article 'רון ברקאי (professor)' has same name but extract does not mention a political role; not accepted",
+  "social": {},
+  "sources": {
+   "partyPage": {
+    "url": "https://yasharwitheisenkot.com/team-member/ron-barkai/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://yasharwitheisenkot.com/team-member/ron-barkai/",
+    "method": "paraphrased from party candidate page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://yasharwitheisenkot.com/team-member/ron-barkai/"
  },
  "ישר!|24": {
   "name": "שי אנדראה פישר",
@@ -788,13 +2788,37 @@
   "position": 24,
   "wikiHe": null,
   "wikiEn": null,
-  "summaryHe": null,
+  "summaryHe": "שי פישר היא פראמדיקית קרבית במילואים מכפר יובל, ממובילות המאבק להשארת צעירים בגליל.",
   "image": null,
   "imageCredit": null,
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {
+   "partyPage": {
+    "url": "https://yasharwitheisenkot.com/team-member/shai-fisher/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://yasharwitheisenkot.com/team-member/shai-fisher/",
+    "method": "paraphrased from party candidate page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "average",
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://yasharwitheisenkot.com/team-member/shai-fisher/"
  },
  "הליכוד|17": {
   "name": "משה סעדה",
@@ -809,7 +2833,57 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Moshe_Saada_(R_H_3588).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1109",
+  "social": {
+   "x": "https://x.com/MosheSaada1",
+   "facebook": "https://www.facebook.com/profile.php?id=100083730021802",
+   "youtube": "https://www.youtube.com/channel/UC87z3mCUF4tVNEuwJcI_eQQ"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1109&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "משה סעדה",
+    "faction": "הליכוד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1109&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q113289336#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1109&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q113289336#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://www.wikidata.org/wiki/Q113289336#P2397",
+    "method": "Wikidata P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/משה_סעדה",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Moshe_Saada_(R_H_3588).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p0",
+   "p5",
+   "p7",
+   "p8"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q113289336"
  },
  "הליכוד|18": {
   "name": "חיים כץ",
@@ -824,7 +2898,49 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Haim_Katz_2023.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/212",
+  "social": {
+   "facebook": "https://www.facebook.com/422665717788216",
+   "youtube": "https://www.youtube.com/channel/UCfXnYTVB9ASM447oS17MakQ"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=212&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "חיים כץ",
+    "faction": "",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q2583214#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://www.wikidata.org/wiki/Q2583214#P2397",
+    "method": "Wikidata P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/חיים_כץ",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Haim_Katz_2023.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p0",
+   "p5",
+   "p7",
+   "p8"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q2583214"
  },
  "הליכוד|19": {
   "name": "דוד אמסלם",
@@ -839,7 +2955,59 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: דודי אמסלם",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Dudi_Amsalem_1_(cropped).jpg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Dudi_Amsalem_1_(cropped).jpg",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/912",
+  "social": {
+   "x": "https://x.com/dudiamsalem",
+   "facebook": "https://www.facebook.com/mkdavidamsalem",
+   "instagram": "https://www.instagram.com/amsalemdudi"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=912&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "דוד אמסלם",
+    "faction": "",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q19201160#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q19201160#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q19201160#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/דודי_אמסלם",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Dudi_Amsalem_1_(cropped).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p0",
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q19201160"
  },
  "הציונות הדתית|10": {
   "name": "עומר פציניאש וולדמן",
@@ -853,7 +3021,14 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p0"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "ש\"ס|5": {
   "name": "חיים ביטון",
@@ -868,7 +3043,34 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Chaim_Biton_(SHL_9193).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1055",
+  "social": {},
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1055&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "חיים ביטון",
+    "faction": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/חיים_ביטון",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Chaim_Biton_(SHL_9193).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p0",
+   "p7"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q106427258"
  },
  "יהדות התורה|10": {
   "name": "דוד אוחנה",
@@ -882,7 +3084,17 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": "possible article 'דוד אוחנה (historian)' has same name but extract does not mention a political role; not accepted"
+  "matchNote": "possible article 'דוד אוחנה (historian)' has same name but extract does not mention a political role; not accepted",
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p0",
+   "p3",
+   "p4",
+   "p6"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "רע\"מ|9": {
   "name": "עזאם עבד אל כרים",
@@ -896,21 +3108,91 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p0"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הדמוקרטים|12": {
   "name": "מורן זר קצנשטיין",
   "party": "הדמוקרטים",
   "position": 12,
-  "wikiHe": null,
-  "wikiEn": null,
-  "summaryHe": null,
-  "image": null,
-  "imageCredit": null,
-  "imageLicense": null,
+  "wikiHe": "https://he.wikipedia.org/wiki/מורן_זר_קצנשטיין",
+  "wikiEn": "https://en.wikipedia.org/wiki/Moran_Zer_Katzenstein",
+  "summaryHe": "מורן זר קצנשטיין היא יועצת אסטרטגית ופעילת ציבור, מייסדת תנועת \"בונות אלטרנטיבה\". ב-2026 הצטרפה למפלגת הדמוקרטים ונבחרה למקום ה-12 בבחירות המקדימות.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Moran_Zer_Katzenstein_2026_%28cropped%29.jpg/500px-Moran_Zer_Katzenstein_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "imageCredit": "יבגני גבריאלוביץ",
+  "imageLicense": "CC BY-SA 4.0",
   "source": null,
-  "matchConfidence": "none",
-  "matchNote": "possible article 'מורן זר קצנשטיין' has same name but extract does not mention a political role; not accepted"
+  "matchConfidence": "high",
+  "matchNote": "article mentions 2026 candidacy for this party",
+  "social": {
+   "x": "https://x.com/ZerMoran",
+   "facebook": "https://www.facebook.com/moran.zer",
+   "instagram": "https://www.instagram.com/moranzer",
+   "linkedin": "https://www.linkedin.com/in/moran-zer-katzenstein-90b62a18"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://democrats.org.il/team/",
+    "method": "WebFetch 200 (box curl blocked); name listed on team page",
+    "verification": "WebFetch 200"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/מורן_זר_קצנשטיין",
+    "method": "article text (2026) confirms candidacy for this party",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiEn": {
+    "url": "https://www.wikidata.org/wiki/Q118395829",
+    "method": "Wikidata sitelink",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Moran_Zer_Katzenstein_2026_(cropped).jpg",
+    "method": "Commons imageinfo/extmetadata",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://he.wikipedia.org/wiki/מורן_זר_קצנשטיין",
+    "method": "paraphrased from article",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q118395829#P2002",
+    "method": "Wikidata P2002 + X API bio check",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q118395829#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q118395829#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://www.wikidata.org/wiki/Q118395829#P6634",
+    "method": "Wikidata P6634",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "p0",
+   "p1",
+   "p5"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://democrats.org.il/team/",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)",
+  "wikidata": "https://www.wikidata.org/wiki/Q118395829",
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Moran_Zer_Katzenstein_2026_(cropped).jpg"
  },
  "ביחד|17": {
   "name": "אורלי אלידן-הראל",
@@ -924,7 +3206,47 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "x": "https://x.com/OrlyHar",
+   "instagram": "https://www.instagram.com/elidano",
+   "tiktok": "https://www.tiktok.com/@orhar1",
+   "linkedin": "https://www.linkedin.com/in/hillary-orly-harel-42a8b1133"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%94%D7%A8%D7%90%D7%9C/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.instagram": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%94%D7%A8%D7%90%D7%9C/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%94%D7%A8%D7%90%D7%9C/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%94%D7%A8%D7%90%D7%9C/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.x": {
+    "url": "https://be-yahad.org.il/team/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%94%D7%A8%D7%90%D7%9C/",
+    "method": "party candidate page",
+    "verification": "X API profile lookup (name/bio match)"
+   }
+  },
+  "inRangeOf": [
+   "p1",
+   "p5",
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://be-yahad.org.il/team/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%94%D7%A8%D7%90%D7%9C/"
  },
  "הציונות הדתית|4": {
   "name": "רוטמן שמחה דן",
@@ -939,7 +3261,64 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Simcha_Rothman_(SHL_8150).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1067",
+  "social": {
+   "x": "https://x.com/rothmar",
+   "facebook": "https://www.facebook.com/MKSimcha",
+   "telegram": "https://t.me/SimRot",
+   "youtube": "https://www.youtube.com/channel/UCbS5ItHdd_9Lz6-a7Dp0OHQ"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1067&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "שמחה רוטמן",
+    "faction": "הציונות הדתית בראשות בצלאל סמוטריץ'",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1067&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q105127281#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1067&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q105127281#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.telegram": {
+    "url": "https://www.wikidata.org/wiki/Q105127281#P3789",
+    "method": "Wikidata P3789",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://www.wikidata.org/wiki/Q105127281#P2397",
+    "method": "Wikidata P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/שמחה_רוטמן",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Simcha_Rothman_(SHL_8150).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p1",
+   "p2",
+   "p4",
+   "p7",
+   "p8"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q105127281"
  },
  "רע\"מ|3": {
   "name": "ווליד טאהא",
@@ -954,7 +3333,59 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: וליד טאהא",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Walid_Taha_(SHL_8811).jpg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Walid_Taha_(SHL_8811).jpg",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1026",
+  "social": {
+   "x": "https://x.com/Waleedt68",
+   "facebook": "https://www.facebook.com/waleedtaha2019",
+   "instagram": "https://www.instagram.com/mk.waleed.taha"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1026&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "ווליד טאהא",
+    "faction": "רע\"ם",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1026&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q67958229#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1026&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q67958229#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1026&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/וליד_טאהא",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Walid_Taha_(SHL_8811).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p1",
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q67958229"
  },
  "ישר!|25": {
   "name": "פולק דוד ליאן",
@@ -962,13 +3393,35 @@
   "position": 25,
   "wikiHe": null,
   "wikiEn": null,
-  "summaryHe": null,
+  "summaryHe": "ליאן פולק-דוד היא יועצת אסטרטגית בינלאומית ושותפה-מייסדת של הקואליציה לביטחון אזורי; עבדה במשרד ראש הממשלה בשנים 2008–2011.",
   "image": null,
   "imageCredit": null,
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {
+   "partyPage": {
+    "url": "https://yasharwitheisenkot.com/team-member/lianne-pollak-david/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://yasharwitheisenkot.com/team-member/lianne-pollak-david/",
+    "method": "paraphrased from party candidate page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p1",
+   "p2",
+   "p4",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://yasharwitheisenkot.com/team-member/lianne-pollak-david/"
  },
  "ישראל ביתנו|5": {
   "name": "יוליה מלינובסקי קונין",
@@ -983,7 +3436,57 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Julia_Malinovsky_(SHL_8919).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/956",
+  "social": {
+   "x": "https://x.com/YuliaMalinovsky",
+   "facebook": "https://www.facebook.com/YuliaMalinovsky5",
+   "telegram": "https://t.me/mkyuliamalinovsky"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=956&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "יוליה מלינובסקי",
+    "faction": "ישראל ביתנו",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=956&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q24276432#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=956&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q24276432#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.telegram": {
+    "url": "https://www.wikidata.org/wiki/Q24276432#P3789",
+    "method": "Wikidata P3789",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יוליה_מלינובסקי",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Julia_Malinovsky_(SHL_8919).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p2",
+   "p3",
+   "p6",
+   "p7"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q24276432"
  },
  "הדמוקרטים|6": {
   "name": "גבריאלה לסקי שוץ",
@@ -998,7 +3501,60 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "matchNote": "name variant: גבי לסקי",
-  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Gaby_Lasky_180222_023_(cropped).jpg"
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Gaby_Lasky_180222_023_(cropped).jpg",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1081",
+  "social": {
+   "x": "https://x.com/gaby_lasky",
+   "facebook": "https://www.facebook.com/gaby.lasky",
+   "instagram": "https://www.instagram.com/gabylasky"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1081&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "גבי לסקי",
+    "faction": "",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q18753926#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q18753926#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q18753926#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/גבי_לסקי",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Gaby_Lasky_180222_023_(cropped).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://democrats.org.il/team/",
+    "method": "WebFetch 200 (box curl blocked); name listed on team page",
+    "verification": "WebFetch 200"
+   }
+  },
+  "inRangeOf": [
+   "p2",
+   "p3",
+   "p4"
+  ],
+  "partyPage": "https://democrats.org.il/team/",
+  "wikidata": "https://www.wikidata.org/wiki/Q18753926",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)"
  },
  "המילואימניקים|2": {
   "name": "ירון זליכה",
@@ -1013,7 +3569,61 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Yaron_zalicha.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "x": "https://x.com/Pzelekha",
+   "facebook": "https://www.facebook.com/Pzelekha",
+   "instagram": "https://www.instagram.com/pzelekha",
+   "youtube": "https://www.youtube.com/channel/UCPLCDfWIPxzjhRNbXZpJByg"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q8049449#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q8049449#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q8049449#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://www.wikidata.org/wiki/Q8049449#P2397",
+    "method": "Wikidata P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "officialWebsite": {
+    "url": "https://www.yaronzelekha.co.il",
+    "source": "https://www.wikidata.org/wiki/Q8049449#P856",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/ירון_זליכה",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yaron_zalicha.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q8049449"
  },
  "המילואימניקים|3": {
   "name": "עינת וילף",
@@ -1028,7 +3638,62 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Einat_Wilf_2008.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/849",
+  "social": {
+   "x": "https://x.com/EinatWilf",
+   "facebook": "https://www.facebook.com/einat.wilf",
+   "youtube": "https://www.youtube.com/channel/UCiaGRCBkU6U0sOGsza7ftAg"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=849&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "עינת וילף",
+    "faction": "",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q2612852#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q2612852#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://www.wikidata.org/wiki/Q2612852#P2397",
+    "method": "Wikidata P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "officialWebsite": {
+    "url": "https://einatwilf.com/",
+    "source": "https://www.wikidata.org/wiki/Q2612852#P856",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/עינת_וילף",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Einat_Wilf_2008.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q2612852"
  },
  "המילואימניקים|4": {
   "name": "חביב ווליבוביץ",
@@ -1042,7 +3707,19 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "המילואימניקים|5": {
   "name": "אדומי יואב שלמה",
@@ -1056,7 +3733,19 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "המילואימניקים|6": {
   "name": "לנגמן אופיר שי",
@@ -1070,7 +3759,19 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p2",
+   "p4",
+   "p5",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הליכוד|28": {
   "name": "לרנר שלמה יוסף",
@@ -1084,7 +3785,15 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p3",
+   "p6"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הליכוד|29": {
   "name": "יצחק בונצל",
@@ -1098,7 +3807,14 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p3"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הליכוד|30": {
   "name": "פרץ משה בנימין",
@@ -1112,7 +3828,14 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p3"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הליכוד|31": {
   "name": "שוקי (יהושע) אוחנה",
@@ -1127,7 +3850,26 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Shuki_Ohana_2018.jpg",
-  "matchNote": "party not in extract"
+  "matchNote": "party not in extract",
+  "social": {},
+  "sources": {
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/שוקי_אוחנה",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Shuki_Ohana_2018.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p3"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q58840135"
  },
  "הליכוד|32": {
   "name": "זאב אלקין",
@@ -1142,7 +3884,61 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:זאב_אלקין.jpg",
-  "matchNote": "extract says תקווה חדשה, now on Likud list"
+  "matchNote": "extract says תקווה חדשה, now on Likud list",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/768",
+  "social": {
+   "x": "https://x.com/zeev_elkin",
+   "facebook": "https://www.facebook.com/Elkin.Zeev",
+   "instagram": "https://www.instagram.com/zeev_elkin",
+   "youtube": "https://www.youtube.com/user/ZeevElkin"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=768&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "זאב אלקין",
+    "faction": "הימין הממלכתי",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=768&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=768&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q2583898#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=768&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q2583898#P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=768&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q2583898#P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/זאב_אלקין",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:זאב_אלקין.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p3"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q2583898"
  },
  "ביחד|9": {
   "name": "מירב כהן",
@@ -1157,7 +3953,69 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Meirav_Cohen_(SHL_9279).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1006",
+  "social": {
+   "x": "https://x.com/cohen_meirav",
+   "facebook": "https://www.facebook.com/MeiravCohen2019",
+   "instagram": "https://www.instagram.com/meiravcohen_",
+   "tiktok": "https://www.tiktok.com/@meiravcohen26"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1006&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "מירב כהן",
+    "faction": "יש עתיד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1006&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q7030786#P2002",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%9E%D7%99%D7%A8%D7%91-%D7%9B%D7%94%D7%9F/",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1006&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q7030786#P2013",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%9E%D7%99%D7%A8%D7%91-%D7%9B%D7%94%D7%9F/",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1006&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%9E%D7%99%D7%A8%D7%91-%D7%9B%D7%94%D7%9F/",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/מירב_כהן",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Meirav_Cohen_(SHL_9279).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%9E%D7%99%D7%A8%D7%91-%D7%9B%D7%94%D7%9F/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.tiktok": {
+    "url": "https://be-yahad.org.il/team/%D7%9E%D7%99%D7%A8%D7%91-%D7%9B%D7%94%D7%9F/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "p3",
+   "p4"
+  ],
+  "partyPage": "https://be-yahad.org.il/team/%D7%9E%D7%99%D7%A8%D7%91-%D7%9B%D7%94%D7%9F/",
+  "wikidata": "https://www.wikidata.org/wiki/Q7030786"
  },
  "ביחד|10": {
   "name": "יונתן שלו",
@@ -1172,7 +4030,62 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:יונתן_שלו_(cropped).JPEG",
-  "matchNote": "party not in extract"
+  "matchNote": "party not in extract",
+  "social": {
+   "x": "https://x.com/JonathanShalev",
+   "facebook": "https://www.facebook.com/yonatanshalev",
+   "instagram": "https://www.instagram.com/yonatan_shalev1",
+   "tiktok": "https://www.tiktok.com/@yonatanshalev26"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q136368057#P2002",
+    "method": "Wikidata P2002",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%99%D7%95%D7%A0%D7%AA%D7%9F-%D7%A9%D7%9C%D7%95/",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q136368057#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q136368057#P2003",
+    "method": "Wikidata P2003",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%99%D7%95%D7%A0%D7%AA%D7%9F-%D7%A9%D7%9C%D7%95/",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://www.wikidata.org/wiki/Q136368057#P7085",
+    "method": "Wikidata P7085",
+    "alsoPartyPage": "https://be-yahad.org.il/team/%D7%99%D7%95%D7%A0%D7%AA%D7%9F-%D7%A9%D7%9C%D7%95/",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יונתן_שלו",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:יונתן_שלו_(cropped).JPEG",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%99%D7%95%D7%A0%D7%AA%D7%9F-%D7%A9%D7%9C%D7%95/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p3",
+   "p4",
+   "p6",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://be-yahad.org.il/team/%D7%99%D7%95%D7%A0%D7%AA%D7%9F-%D7%A9%D7%9C%D7%95/",
+  "wikidata": "https://www.wikidata.org/wiki/Q136368057"
  },
  "ביחד|11": {
   "name": "ברוריה נעים ארמן",
@@ -1180,13 +4093,53 @@
   "position": 11,
   "wikiHe": null,
   "wikiEn": null,
-  "summaryHe": null,
+  "summaryHe": "ברוריה נעים ארמן היא מנכ\"לית מפלגת ביחד ומייסדת חברה בתחום קשרי קהילה ושיתוף ציבור; אחרי 7 באוקטובר הקימה את מערך השטח של מטה החטופים.",
   "image": null,
   "imageCredit": null,
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "facebook": "https://www.facebook.com/share/1MgLwgVe7g",
+   "instagram": "https://www.instagram.com/brurianaim10",
+   "linkedin": "https://www.linkedin.com/in/bruria-naim-erman-9a082181"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://be-yahad.org.il/team/%D7%91%D7%A8%D7%95%D7%A8%D7%99%D7%94-%D7%A0%D7%A2%D7%99%D7%9D-%D7%90%D7%A8%D7%9E%D7%9F/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://be-yahad.org.il/team/%D7%91%D7%A8%D7%95%D7%A8%D7%99%D7%94-%D7%A0%D7%A2%D7%99%D7%9D-%D7%90%D7%A8%D7%9E%D7%9F/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://be-yahad.org.il/team/%D7%91%D7%A8%D7%95%D7%A8%D7%99%D7%94-%D7%A0%D7%A2%D7%99%D7%9D-%D7%90%D7%A8%D7%9E%D7%9F/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://be-yahad.org.il/team/%D7%91%D7%A8%D7%95%D7%A8%D7%99%D7%94-%D7%A0%D7%A2%D7%99%D7%9D-%D7%90%D7%A8%D7%9E%D7%9F/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "summaryHe": {
+    "url": "https://be-yahad.org.il/team/%D7%91%D7%A8%D7%95%D7%A8%D7%99%D7%94-%D7%A0%D7%A2%D7%99%D7%9D-%D7%90%D7%A8%D7%9E%D7%9F/",
+    "method": "paraphrased from party candidate page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p3",
+   "p4",
+   "p6",
+   "p9"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://be-yahad.org.il/team/%D7%91%D7%A8%D7%95%D7%A8%D7%99%D7%94-%D7%A0%D7%A2%D7%99%D7%9D-%D7%90%D7%A8%D7%9E%D7%9F/"
  },
  "ש\"ס|11": {
   "name": "יוסי אילנתנוב",
@@ -1200,21 +4153,66 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p3"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "ישראל ביתנו|3": {
   "name": "טליה לנקרי",
   "party": "ישראל ביתנו",
   "position": 3,
-  "wikiHe": null,
+  "wikiHe": "https://he.wikipedia.org/wiki/טליה_לנקרי",
   "wikiEn": null,
-  "summaryHe": null,
+  "summaryHe": "טליה לנקרי היא אלוף-משנה במילואים ולשעבר ראש חטיבת העורף במל\"ל. ביולי 2026 הצטרפה לישראל ביתנו ושובצה במקום ה-3 ברשימה לכנסת ה-26.",
   "image": null,
   "imageCredit": null,
   "imageLicense": null,
   "source": null,
-  "matchConfidence": "none",
-  "matchNote": "possible article 'טליה לנקרי' has same name but extract does not mention a political role; not accepted"
+  "matchConfidence": "high",
+  "matchNote": "article mentions 2026 candidacy for this party",
+  "social": {
+   "x": "https://x.com/talyalankri",
+   "facebook": "https://www.facebook.com/Talya.Gedera",
+   "instagram": "https://www.instagram.com/talya.gedera"
+  },
+  "sources": {
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/טליה_לנקרי",
+    "method": "article text (2026) confirms candidacy for this party",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://he.wikipedia.org/wiki/טליה_לנקרי",
+    "method": "paraphrased from article",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q125495037#P2002",
+    "method": "Wikidata P2002 + X API bio check",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q125495037#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q125495037#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "p3"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q125495037"
  },
  "ישראל ביתנו|4": {
   "name": "עודד פורר",
@@ -1229,7 +4227,60 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Oded_Forer_(ISH_0467).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/951",
+  "social": {
+   "x": "https://x.com/oded_forer",
+   "facebook": "https://www.facebook.com/ForerOded",
+   "instagram": "https://www.instagram.com/odedforer",
+   "youtube": "https://www.youtube.com/channel/UCtbFVQymytvNXnuADek10dg"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=951&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "עודד פורר",
+    "faction": "ישראל ביתנו",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=951&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q20898016#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=951&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q20898016#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=951&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=951&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/עודד_פורר",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Oded_Forer_(ISH_0467).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p3"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q20898016"
  },
  "הרשימה המשותפת|6": {
   "name": "יוסף עטאונה",
@@ -1244,7 +4295,36 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Youssef_Atauna_(ISH_9163).jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/964",
+  "social": {},
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=964&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "יוסף עטאונה",
+    "faction": "",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יוסף_עטאונה",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Youssef_Atauna_(ISH_9163).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p3",
+   "p6",
+   "p8",
+   "p9"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q42317837"
  },
  "ישר!|18": {
   "name": "ישראל זרי",
@@ -1259,35 +4339,168 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:ישראל_זרי.jpeg",
-  "matchNote": "party not in extract"
+  "matchNote": "party not in extract",
+  "social": {
+   "x": "https://x.com/israelzari",
+   "facebook": "https://www.facebook.com/israel.zari23",
+   "instagram": "https://www.instagram.com/israelzari"
+  },
+  "sources": {
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/ישראל_זרי",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:ישראל_זרי.jpeg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://yasharwitheisenkot.com/team-member/israel-zari/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://yasharwitheisenkot.com/team-member/israel-zari/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://yasharwitheisenkot.com/team-member/israel-zari/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.x": {
+    "url": "https://yasharwitheisenkot.com/team-member/israel-zari/",
+    "method": "party candidate page",
+    "verification": "X API profile lookup (name/bio match)"
+   }
+  },
+  "inRangeOf": [
+   "p3",
+   "p6"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://yasharwitheisenkot.com/team-member/israel-zari/",
+  "wikidata": "https://www.wikidata.org/wiki/Q125400306"
  },
  "ישר!|19": {
   "name": "טל אוחנה",
   "party": "ישר!",
   "position": 19,
-  "wikiHe": null,
-  "wikiEn": null,
-  "summaryHe": null,
-  "image": null,
-  "imageCredit": null,
-  "imageLicense": null,
+  "wikiHe": "https://he.wikipedia.org/wiki/טל_אוחנה",
+  "wikiEn": "https://en.wikipedia.org/wiki/Tal_Ohana",
+  "summaryHe": "טל אוחנה היא ראש מועצת ירוחם לשעבר. ב-2026 הצטרפה למפלגת \"ישר! עם איזנקוט\".",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/TalOhana1.jpg/500px-TalOhana1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "imageCredit": "Noam Furer",
+  "imageLicense": "CC0",
   "source": null,
-  "matchConfidence": "none",
-  "matchNote": "possible article 'טל אוחנה' has same name but extract does not mention a political role; not accepted"
+  "matchConfidence": "high",
+  "matchNote": "article mentions 2026 candidacy for this party",
+  "social": {
+   "facebook": "https://www.facebook.com/TalOhanaOfficial"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://yasharwitheisenkot.com/team-member/tal-ohana/",
+    "method": "fetched 200, name on page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://yasharwitheisenkot.com/team-member/tal-ohana/",
+    "method": "party candidate page",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/טל_אוחנה",
+    "method": "article text (2026) confirms candidacy for this party",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiEn": {
+    "url": "https://www.wikidata.org/wiki/Q58059328",
+    "method": "Wikidata sitelink",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:TalOhana1.jpg",
+    "method": "Commons imageinfo/extmetadata",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://he.wikipedia.org/wiki/טל_אוחנה",
+    "method": "paraphrased from article",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p3",
+   "p5",
+   "p6",
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://yasharwitheisenkot.com/team-member/tal-ohana/",
+  "wikidata": "https://www.wikidata.org/wiki/Q58059328",
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:TalOhana1.jpg"
  },
  "ישראל ביתנו|11": {
   "name": "לילי בן עמי",
   "party": "ישראל ביתנו",
   "position": 11,
-  "wikiHe": null,
+  "wikiHe": "https://he.wikipedia.org/wiki/לילי_בן_עמי",
   "wikiEn": null,
-  "summaryHe": null,
-  "image": null,
-  "imageCredit": null,
-  "imageLicense": null,
+  "summaryHe": "לילי בן עמי היא פעילה חברתית בתחום השוויון המגדרי והמאבק באלימות נגד נשים, ומקימת פורום מיכל סלה. באוגוסט 2026 הודיעה על התמודדותה ברשימת ישראל ביתנו.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/2024_Lili_Ben_Ami_%28cropped%29.jpg/500px-2024_Lili_Ben_Ami_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "imageCredit": "U.S. Embassy Jerusalem",
+  "imageLicense": "CC BY 2.0",
   "source": null,
-  "matchConfidence": "none",
-  "matchNote": "possible article 'לילי בן עמי' has same name but extract does not mention a political role; not accepted"
+  "matchConfidence": "high",
+  "matchNote": "article mentions 2026 candidacy for this party",
+  "social": {
+   "x": "https://x.com/LiliBenAmi",
+   "facebook": "https://www.facebook.com/lilisela",
+   "linkedin": "https://www.linkedin.com/in/lili-ben-ami-4838032a"
+  },
+  "sources": {
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/לילי_בן_עמי",
+    "method": "article text (2026) confirms candidacy for this party",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:2024_Lili_Ben_Ami_(cropped).jpg",
+    "method": "Commons imageinfo/extmetadata",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://he.wikipedia.org/wiki/לילי_בן_עמי",
+    "method": "paraphrased from article",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q110488510#P2002",
+    "method": "Wikidata P2002 + X API bio check",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q110488510#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.linkedin": {
+    "url": "https://www.wikidata.org/wiki/Q110488510#P6634",
+    "method": "Wikidata P6634",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "p4"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q110488510",
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:2024_Lili_Ben_Ami_(cropped).jpg"
  },
  "עוצמה יהודית|5": {
   "name": "לימור סון הר-מלך",
@@ -1302,7 +4515,33 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Limor_Son_Har-Melech.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/1108",
+  "social": {},
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=1108&languageKey=he",
+    "method": "name match to current-MK list (Knesset API GetMks)",
+    "mkName": "לימור סון הר מלך",
+    "faction": "עוצמה יהודית בראשות איתמר בן גביר",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/לימור_סון_הר-מלך",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Limor_Son_Har-Melech.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p5"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q115092610"
  },
  "הליכוד|25": {
   "name": "גילה גמליאל דמרי",
@@ -1317,7 +4556,68 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Gila_Gamliel_1.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/723",
+  "social": {
+   "x": "https://x.com/GilaGamliel",
+   "facebook": "https://www.facebook.com/MK.Gila.Gamliel",
+   "instagram": "https://www.instagram.com/gila_gamliel",
+   "telegram": "https://t.me/gamlielgila",
+   "youtube": "https://www.youtube.com/user/gamlielgila"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=723&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "גילה גמליאל",
+    "faction": "הליכוד",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=723&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q445611#P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=723&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q445611#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=723&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q445611#P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=723&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q445611#P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.telegram": {
+    "url": "https://www.wikidata.org/wiki/Q445611#P3789",
+    "method": "Wikidata P3789",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/גילה_גמליאל",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Gila_Gamliel_1.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p6"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q445611"
  },
  "הליכוד|26": {
   "name": "אלי גולדשמידט",
@@ -1332,7 +4632,33 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:The_Labour_Party_is_trying_to_establish_a_coalition_for_the_next_government_headed_by_PM_Rabin_(FL45766393).jpg",
-  "matchNote": "article is a former Labor MK; same person on Likud list not confirmed by extract"
+  "matchNote": "article is a former Labor MK; same person on Likud list not confirmed by extract",
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/33",
+  "social": {},
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=33&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "אלי גולדשמידט",
+    "faction": "",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/אלי_גולדשמידט",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:The_Labour_Party_is_trying_to_establish_a_coalition_for_the_next_government_headed_by_PM_Rabin_(FL45766393).jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p6"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q2907550"
  },
  "הליכוד|27": {
   "name": "ארז תדמור",
@@ -1347,7 +4673,33 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:ארז_תדמור.png",
-  "matchNote": "media figure; Likud candidacy not in extract"
+  "matchNote": "media figure; Likud candidacy not in extract",
+  "social": {
+   "x": "https://x.com/tadmorerez48"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q30005051#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/ארז_תדמור_(איש_תקשורת)",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:ארז_תדמור.png",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p6"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q30005051"
  },
  "עוצמה יהודית|11": {
   "name": "בבלי דוד מנחם",
@@ -1361,7 +4713,15 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {},
+  "sources": {},
+  "inRangeOf": [
+   "p6",
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": null
  },
  "הליכוד|16": {
   "name": "דוד פטר",
@@ -1375,7 +4735,33 @@
   "imageLicense": null,
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
-  "matchNote": "lawyer; Likud candidacy not in extract"
+  "matchNote": "lawyer; Likud candidacy not in extract",
+  "social": {
+   "x": "https://x.com/ptr_dvd"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q139384404#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "officialWebsite": {
+    "url": "https://www.dvdptr.com",
+    "source": "https://www.wikidata.org/wiki/Q139384404#P856",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/דוד_פטר_(עורך_דין)",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q139384404"
  },
  "ש\"ס|4": {
   "name": "בן צור יואב",
@@ -1390,7 +4776,53 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Yoav_Ben-Tzur_1.jpg",
-  "matchNote": null
+  "matchNote": null,
+  "knessetPage": "https://main.knesset.gov.il/mk/apps/mk/mk-personal-details/906",
+  "social": {
+   "x": "https://x.com/BentzurYoav",
+   "facebook": "https://www.facebook.com/yobentzur",
+   "youtube": "https://www.youtube.com/channel/UCFI4BUztVv5BkeDNluuOB_Q"
+  },
+  "sources": {
+   "knessetPage": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=906&languageKey=he",
+    "method": "Wikidata P9770 + Knesset API name check",
+    "mkName": "יואב בן צור",
+    "faction": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "verification": "Knesset API returned matching name (main.knesset.gov.il blocks bots)"
+   },
+   "social.x": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=906&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=906&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "alsoWikidata": "https://www.wikidata.org/wiki/Q17280189#P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://knesset.gov.il/WebSiteApi/knessetapi/MKs/GetMkdetailsHeader?mkId=906&languageKey=he",
+    "method": "Knesset member page data (API)",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יואב_בן_צור",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yoav_Ben-Tzur_1.jpg",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p7"
+  ],
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q17280189"
  },
  "עמך ישראל|2": {
   "name": "יוסף חדאד",
@@ -1405,21 +4837,138 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "high",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Yoseph.hadad_portrait.png",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "x": "https://x.com/yosephhaddad",
+   "facebook": "https://www.facebook.com/YosHaddad",
+   "instagram": "https://www.instagram.com/yosephhaddad",
+   "tiktok": "https://www.tiktok.com/@yosephhaddad",
+   "telegram": "https://t.me/yosephhaddad",
+   "youtube": "https://www.youtube.com/channel/UCX56N31-FRzP9y-P6Exbopg"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q109688971#P2002",
+    "method": "Wikidata P2002",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "social.facebook": {
+    "url": "https://www.wikidata.org/wiki/Q109688971#P2013",
+    "method": "Wikidata P2013",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://www.wikidata.org/wiki/Q109688971#P2003",
+    "method": "Wikidata P2003",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://www.wikidata.org/wiki/Q109688971#P7085",
+    "method": "Wikidata P7085",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.telegram": {
+    "url": "https://www.wikidata.org/wiki/Q109688971#P3789",
+    "method": "Wikidata P3789",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.youtube": {
+    "url": "https://www.wikidata.org/wiki/Q109688971#P2397",
+    "method": "Wikidata P2397",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/יוסף_חדאד",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yoseph.hadad_portrait.png",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   }
+  },
+  "inRangeOf": [
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q109688971"
  },
  "עמך ישראל|3": {
   "name": "נטעלי שם טוב",
   "party": "עמך ישראל",
   "position": 3,
-  "wikiHe": null,
-  "wikiEn": null,
-  "summaryHe": null,
-  "image": null,
-  "imageCredit": null,
-  "imageLicense": null,
+  "wikiHe": "https://he.wikipedia.org/wiki/נטעלי_שם_טוב",
+  "wikiEn": "https://en.wikipedia.org/wiki/Netali_Shem_Tov",
+  "summaryHe": "נטעלי שם טוב היא עיתונאית ישראלית שהגישה את מהדורת \"זמן שישי\" בחדשות 13. באוגוסט 2026 הצטרפה למפלגת עמך ישראל בראשות עופר וינטר.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Netali_Shem_Tov_%285241%29.JPG/500px-Netali_Shem_Tov_%285241%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "imageCredit": "מיכל ממן להידרומדיה",
+  "imageLicense": "CC BY-SA 3.0",
   "source": null,
-  "matchConfidence": "none",
-  "matchNote": "possible article 'נטעלי שם טוב' has same name but extract does not mention a political role; not accepted"
+  "matchConfidence": "high",
+  "matchNote": "article mentions 2026 candidacy for this party",
+  "social": {
+   "x": "https://x.com/netalishemtov",
+   "facebook": "https://www.facebook.com/profile.php?id=10009551367574",
+   "instagram": "https://www.instagram.com/netalishemtov",
+   "tiktok": "https://www.tiktok.com/@netali_shemtov"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "fetched 200, candidate section on shared team page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/נטעלי_שם_טוב",
+    "method": "article text (2026) confirms candidacy for this party",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "wikiEn": {
+    "url": "https://www.wikidata.org/wiki/Q102254880",
+    "method": "Wikidata sitelink",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Netali_Shem_Tov_(5241).JPG",
+    "method": "Commons imageinfo/extmetadata",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "summaryHe": {
+    "url": "https://he.wikipedia.org/wiki/נטעלי_שם_טוב",
+    "method": "paraphrased from article",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q102254880#P2002",
+    "method": "Wikidata P2002 + X API bio check",
+    "verification": "X API profile lookup (name/bio match)"
+   }
+  },
+  "inRangeOf": [
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://amchaisrael.co.il/team",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)",
+  "wikidata": "https://www.wikidata.org/wiki/Q102254880",
+  "imageFilePage": "https://commons.wikimedia.org/wiki/File:Netali_Shem_Tov_(5241).JPG"
  },
  "עמך ישראל|4": {
   "name": "בן ארי ערן",
@@ -1433,7 +4982,46 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "x": "https://x.com/eranbenari1",
+   "facebook": "https://www.facebook.com/eran.benari.5",
+   "instagram": "https://www.instagram.com/eran.benari.5",
+   "tiktok": "https://www.tiktok.com/@eranbenari"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "fetched 200, candidate section on shared team page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.x": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "X API profile lookup (name/bio match)"
+   }
+  },
+  "inRangeOf": [
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://amchaisrael.co.il/team",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)"
  },
  "עמך ישראל|5": {
   "name": "פלר חסן-נחום",
@@ -1448,7 +5036,52 @@
   "source": "he.wikipedia.org (extract, pageimages, imageinfo)",
   "matchConfidence": "medium",
   "imageFilePage": "https://commons.wikimedia.org/wiki/File:Fluerhassan_portrait.png",
-  "matchNote": "party not in extract"
+  "matchNote": "party not in extract",
+  "social": {
+   "x": "https://x.com/FleurHassanN",
+   "facebook": "https://www.facebook.com/Fleurhassanahoum",
+   "instagram": "https://www.instagram.com/fleurhassann"
+  },
+  "sources": {
+   "social.x": {
+    "url": "https://www.wikidata.org/wiki/Q67327757#P2002",
+    "method": "Wikidata P2002",
+    "alsoPartyPage": "https://amchaisrael.co.il/team",
+    "verification": "X API profile lookup (name/bio match)"
+   },
+   "wikiHe": {
+    "url": "https://he.wikipedia.org/wiki/פלר_חסן-נחום",
+    "method": "prior work",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "image": {
+    "url": "https://commons.wikimedia.org/wiki/File:Fluerhassan_portrait.png",
+    "method": "Wikimedia Commons file page (prior work)",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "partyPage": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "fetched 200, candidate section on shared team page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   }
+  },
+  "inRangeOf": [
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://amchaisrael.co.il/team",
+  "wikidata": "https://www.wikidata.org/wiki/Q67327757",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)"
  },
  "עמך ישראל|6": {
   "name": "ללי דרעי",
@@ -1462,6 +5095,45 @@
   "imageLicense": null,
   "source": null,
   "matchConfidence": "none",
-  "matchNote": null
+  "matchNote": null,
+  "social": {
+   "x": "https://x.com/lalyderai",
+   "facebook": "https://www.facebook.com/laly.derai",
+   "instagram": "https://www.instagram.com/laly_derai",
+   "tiktok": "https://www.tiktok.com/@laly_derai"
+  },
+  "sources": {
+   "partyPage": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "fetched 200, candidate section on shared team page",
+    "verification": "HTTP 200 (curl, 26.10.2026)"
+   },
+   "social.facebook": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.instagram": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.tiktok": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "source listing (Knesset/Wikidata/party page); direct fetch not attempted (login walls)"
+   },
+   "social.x": {
+    "url": "https://amchaisrael.co.il/team",
+    "method": "party team page section",
+    "verification": "X API profile lookup (name/bio match)"
+   }
+  },
+  "inRangeOf": [
+   "p7"
+  ],
+  "knessetPage": null,
+  "partyPage": "https://amchaisrael.co.il/team",
+  "partyPageNote": "דף הנבחרת המשותף (אין דף אישי)"
  }
 }
