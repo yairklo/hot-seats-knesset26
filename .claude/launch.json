@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "hot-seats",
+      "name": "hot-seats-app",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "hot-seats"],
-      "port": 8765
+      "runtimeArgs": ["-m", "http.server", "8766", "--directory", "hot-seats"],
+      "port": 8766
     }
   ]
 }

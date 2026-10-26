@@ -23,7 +23,7 @@ async function load(){
     init(p,c);
   }catch(e){
     const box=$("loadErr");box.hidden=false;
-    box.innerHTML=`לא הצלחתי לטעון את קובצי הנתונים (polls.json, candidates.json). הדפדפן חוסם טעינת קבצים כשפותחים את הדף ישירות מהדיסק, לכן צריך להריץ שרת מקומי מתוך התיקייה:<br><code>python -m http.server 8765</code><br>ואז לפתוח <code>http://localhost:8765</code>.`;
+    box.innerHTML=`לא הצלחתי לטעון את קובצי הנתונים (polls.json, candidates.json). הדפדפן חוסם טעינת קבצים כשפותחים את הדף ישירות מהדיסק, לכן צריך להריץ שרת מקומי מתוך התיקייה:<br><code>python -m http.server 8766</code><br>ואז לפתוח <code>http://localhost:8766</code>.`;
   }
 }
 
@@ -43,7 +43,18 @@ function init(pollData,candData){
   });
   const parties=[...new Set(Object.values(map))];
   const avgExact={},avgSeats={};
-  parties.forEach(he=>{const s=POLLS.reduce((a,p)=>a+(p.seats[he]||0),0);avgExact[he]=s/POLLS.length;avgSeats[he]=Math.round(avgExact[he])});
+  parties.forEach(he=>{const s=POLLS.reduce((a,p)=>a+(p.seats[he]||0),0);avgExact[he]=s/POLLS.length});
+  // Parties whose rounded average is below 4 count as below the threshold (0 seats).
+  // The rest share exactly 120 seats by the largest-remainder method on their averages.
+  const passing=parties.filter(he=>Math.round(avgExact[he])>=4);
+  parties.forEach(he=>{avgSeats[he]=0});
+  const total=passing.reduce((a,he)=>a+avgExact[he],0);
+  if(total>0){
+    const quota=Object.fromEntries(passing.map(he=>[he,avgExact[he]*120/total]));
+    passing.forEach(he=>{avgSeats[he]=Math.floor(quota[he])});
+    let left=120-passing.reduce((a,he)=>a+avgSeats[he],0);
+    [...passing].sort((a,b)=>(quota[b]-Math.floor(quota[b]))-(quota[a]-Math.floor(quota[a]))).slice(0,left).forEach(he=>{avgSeats[he]++});
+  }
   SOURCES=[{id:"avg",label:`ממוצע הסקרים (${POLLS.length} סקרים)`,short:"ממוצע",seats:avgSeats,exact:avgExact},...POLLS];
   $("src").innerHTML=SOURCES.map(s=>`<option value="${s.id}">${esc(s.label)}</option>`).join("");
   $("src").value=state.src;
@@ -109,7 +120,7 @@ function render(){
     <div class="legend"><span><i class="sw" style="background:#FBF7EE;border:1px solid #EFE3C8"></i>טווח 1±</span><span><i class="sw" style="background:var(--inbg)"></i>נכנס (מעל הקו)</span><span><i class="sw" style="background:var(--outbg)"></i>לא נכנס (מתחת לקו)</span><span>* מתחת ל-6 מנדטים, קרוב לאחוז החסימה</span></div>
     <div class="cards">${cards}</div>
     ${below.length?`<div class="below">מתחת לאחוז החסימה במקור הזה: ${below.map(esc).join(", ")}</div>`:""}
-    ${src.exact?`<div class="foot">בממוצע, סקר שבו מפלגה מתחת לאחוז החסימה נספר כ-0. המספר הגדול מעוגל, ולידו הממוצע המדויק. ממוצע מעוגל יכול לצאת נמוך מאחוז החסימה האמיתי.</div>`:""}`;
+    ${src.exact?`<div class="foot">בממוצע, סקר שבו מפלגה מתחת לאחוז החסימה נספר כ-0. מפלגה שהממוצע המעוגל שלה נמוך מ-4 מוצגת כמתחת לאחוז החסימה. בין שאר המפלגות מחולקים בדיוק 120 מנדטים לפי שיטת השארית הגדולה, ולכן המספר הגדול יכול להיות גבוה מהממוצע המדויק שמופיע לידו.</div>`:""}`;
   $("warns").innerHTML=warns.length?`<b>שימו לב</b><ul>${[...new Set(warns)].map(w=>`<li>${esc(w)}</li>`).join("")}</ul>`:"";
   renderCompare();
 }
