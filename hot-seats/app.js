@@ -60,14 +60,35 @@ function init(pollData,candData){
     [...passing].sort((a,b)=>(quota[b]-Math.floor(quota[b]))-(quota[a]-Math.floor(quota[a]))).slice(0,left).forEach(he=>{avgSeats[he]++});
   }
   SOURCES=[{id:"avg",label:`ממוצע הסקרים (${POLLS.length} סקרים)`,short:"ממוצע",seats:avgSeats,exact:avgExact},...POLLS];
-  $("src").innerHTML=SOURCES.map(s=>`<option value="${s.id}">${esc(s.label)}</option>`).join("");
-  $("src").value=state.src;
-  $("src").addEventListener("change",e=>{state.src=e.target.value;render()});
+  // Source picker: one pill chip per source.
+  $("src").innerHTML=SOURCES.map(s=>`<button type="button" class="chip" data-src="${s.id}" aria-pressed="${s.id===state.src}">${s.date?`${esc(s.short)} <span class="sub">· <bdi>${esc(s.date)}</bdi></span>`:esc(s.label)}</button>`).join("");
+  $("src").addEventListener("click",e=>{
+    const b=e.target.closest("[data-src]");if(!b||b.dataset.src===state.src)return;
+    state.src=b.dataset.src;$("src").querySelectorAll("[data-src]").forEach(x=>x.setAttribute("aria-pressed",x===b));render(true);
+  });
   document.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{
-    state.g=b.dataset.g;document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x===b));render();
+    state.g=b.dataset.g;document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x===b));render(false);
   }));
   document.querySelectorAll("button.exp").forEach(b=>b.addEventListener("click",()=>exportPng(b)));
-  render();
+  setupChipScroll();
+  render(true);
+}
+
+// Poll chips scroll sideways in one row; the arrow buttons show only when there is more to see.
+function setupChipScroll(){
+  const row=$("src"),back=document.querySelector('.scroll-btn[data-dir="back"]'),fwd=document.querySelector('.scroll-btn[data-dir="fwd"]');
+  const rtl=getComputedStyle(row).direction==="rtl";
+  const upd=()=>{
+    const max=row.scrollWidth-row.clientWidth,pos=Math.abs(row.scrollLeft);
+    back.hidden=max<2||pos<2;fwd.hidden=max<2||pos>max-2;
+  };
+  const step=()=>Math.max(160,row.clientWidth*.7);
+  back.addEventListener("click",()=>row.scrollBy({left:(rtl?1:-1)*step()}));
+  fwd.addEventListener("click",()=>row.scrollBy({left:(rtl?-1:1)*step()}));
+  row.addEventListener("scroll",upd,{passive:true});
+  addEventListener("resize",upd);
+  row.addEventListener("focusin",e=>{if(e.target.matches(".chip"))e.target.scrollIntoView({block:"nearest",inline:"nearest"})});
+  upd();
 }
 
 function partyRows(src){
@@ -87,11 +108,14 @@ function analyse(party,N){
   return {line,hot,hotRows,hasList:!!LISTS[party],listLen:list.length};
 }
 const gMatch=g=>state.g==="all"||state.g===g;
-const cntHtml=c=>`<span class="cf">${c.F} נשים</span> · <span class="cm">${c.M} גברים</span>${c.U?` · <span class="cu">${c.U} לא אומת</span>`:""}${c.missing?` · <span class="cu">${c.missing} חסרים</span>`:""}`;
+const cntHtml=c=>`<span class="cf"><bdi>${c.F}</bdi> נשים</span> · <span class="cm"><bdi>${c.M}</bdi> גברים</span>${c.U?` · <span class="cu"><bdi>${c.U}</bdi> לא אומת</span>`:""}${c.missing?` · <span class="cu"><bdi>${c.missing}</bdi> חסרים</span>`:""}`;
+// Lucide icon placeholder; replaced by an inline SVG when the icon library is available.
+const icon=(name,cls="")=>`<i data-lucide="${name}"${cls?` class="${cls}"`:""} aria-hidden="true"></i>`;
 const filterLabel=()=>state.g==="F"?"נשים בלבד":state.g==="M"?"גברים בלבד":"כל המועמדים";
 
-function render(){
+function render(animate){
   const src=SOURCES.find(s=>s.id===state.src);
+  let cardIdx=0;
   const rows=partyRows(src);
   const warns=[...WARN_STATIC];
   const T={line:{F:0,M:0,U:0,missing:0},hot:{F:0,M:0,U:0,missing:0}};
@@ -105,28 +129,30 @@ function render(){
     a.hotRows.forEach(r=>{
       if(r.missing){body+=`<div class="missing">מקום ${r.pos}: אין נתונים</div>`}
       else if(gMatch(r.g)){
-        body+=`<div class="cand${r.e1?" e1":""}"><span class="pos">${r.pos}</span><span><button type="button" class="cname" data-key="${esc(party+"|"+r.pos)}">${esc(displayName(r.c))}</button></span><span class="tag ${r.g}">${G_LABEL[r.g]}</span><span class="st ${r.inside?"in":"out"}">${(r.inside?"":"לא ")+ENTERS[r.g]}</span></div>`;
+        body+=`<button type="button" class="cand cname${r.e1?" e1":""}" data-key="${esc(party+"|"+r.pos)}"><span class="pos"><bdi>${r.pos}</bdi></span><span class="nm">${esc(displayName(r.c))}</span><span class="tag ${r.g}">${G_LABEL[r.g]}</span><span class="st ${r.inside?"in":"out"}">${icon(r.inside?"check":"minus")}${(r.inside?"":"לא ")+ENTERS[r.g]}</span></button>`;
       }
-      if(r.pos===N)body+=`<div class="cutline">קו המנדטים · ${N}</div>`;
+      if(r.pos===N)body+=`<div class="cutline">קו המנדטים · <bdi>${N}</bdi></div>`;
     });
-    const exact=src.exact?`<span class="exact">(ממוצע ${src.exact[party].toFixed(1)})</span>`:"";
-    return `<article class="card"><h3><span>${esc(party)}${N<6?"*":""}</span><span><span class="seats">${N}</span>${exact}</span></h3>
-      <div class="counts"><span class="k">בתוך הקו (1–${N}):</span><span>${cntHtml(a.line)}</span><span class="k">בטווח החם (${Math.max(1,N-2)}–${N+2}):</span><span>${cntHtml(a.hot)}</span></div>
+    const exact=src.exact?`<span class="exact">(ממוצע <bdi>${src.exact[party].toFixed(1)}</bdi>)</span>`:"";
+    return `<article class="card" style="--i:${cardIdx++}"><h3><span>${esc(party)}${N<6?"*":""}</span><span class="seatbox"><span class="seats"><bdi>${N}</bdi></span>${exact}</span></h3>
+      <div class="counts"><span class="k">בתוך הקו (<bdi dir="ltr">1–${N}</bdi>):</span><span>${cntHtml(a.line)}</span><span class="k">בטווח החם (<bdi dir="ltr">${Math.max(1,N-2)}–${N+2}</bdi>):</span><span>${cntHtml(a.hot)}</span></div>
       ${body}</article>`;
   }).join("");
-  const below=Object.entries(src.seats).filter(([,n])=>!(n>0)).map(([p])=>p+(src.exact&&src.exact[p]>0?` (ממוצע ${src.exact[p].toFixed(1)})`:""));
+  const below=Object.entries(src.seats).filter(([,n])=>!(n>0)).map(([p])=>esc(p)+(src.exact&&src.exact[p]>0?` (ממוצע <bdi>${src.exact[p].toFixed(1)}</bdi>)`:""));
+  const totNums=t=>`<span class="cf"><b><bdi>${t.F}</bdi></b> נשים</span><span class="cm"><b><bdi>${t.M}</bdi></b> גברים</span>${t.U?`<span class="cu"><b><bdi>${t.U}</bdi></b> לא אומת</span>`:""}`;
   $("capParties").innerHTML=`
-    <div class="foot" style="margin:0 0 10px;font-size:13px;color:var(--ink2)">${esc(src.label)} · ${filterLabel()}</div>
+    <p class="ctx">${esc(src.label)} · ${filterLabel()}</p>
     <div class="totals">
-      <div class="tot"><div class="lbl">סה"כ בתוך הקו</div><div class="nums"><span class="cf"><b>${T.line.F}</b> נשים</span><span class="cm"><b>${T.line.M}</b> גברים</span>${T.line.U?`<span class="cu"><b>${T.line.U}</b> לא אומת</span>`:""}</div></div>
-      <div class="tot"><div class="lbl">סה"כ בטווח החם (2± מנדטים)</div><div class="nums"><span class="cf"><b>${T.hot.F}</b> נשים</span><span class="cm"><b>${T.hot.M}</b> גברים</span>${T.hot.U?`<span class="cu"><b>${T.hot.U}</b> לא אומת</span>`:""}</div></div>
+      <div class="tot"><div class="lbl">סה"כ בתוך הקו</div><div class="nums">${totNums(T.line)}</div></div>
+      <div class="tot"><div class="lbl">סה"כ בטווח החם (2± מנדטים)</div><div class="nums">${totNums(T.hot)}</div></div>
     </div>
-    <div class="legend"><span><i class="sw" style="background:#FBF7EE;border:1px solid #EFE3C8"></i>טווח 1±</span><span><i class="sw" style="background:var(--inbg)"></i>נכנס (מעל הקו)</span><span><i class="sw" style="background:var(--outbg)"></i>לא נכנס (מתחת לקו)</span><span>* מתחת ל-6 מנדטים, קרוב לאחוז החסימה</span></div>
-    <div class="cards">${cards}</div>
-    ${below.length?`<div class="below">מתחת לאחוז החסימה במקור הזה: ${below.map(esc).join(", ")}</div>`:""}
+    <div class="legend"><span><i class="sw e1" aria-hidden="true"></i>טווח 1±</span><span><i class="sw in" aria-hidden="true">${icon("check")}</i>נכנס (מעל הקו)</span><span><i class="sw out" aria-hidden="true">${icon("minus")}</i>לא נכנס (מתחת לקו)</span><span>* מתחת ל-6 מנדטים, קרוב לאחוז החסימה</span></div>
+    <div class="cards${animate?" enter":""}">${cards}</div>
+    ${below.length?`<div class="below">מתחת לאחוז החסימה במקור הזה: ${below.join(", ")}</div>`:""}
     ${src.exact?`<div class="foot">בממוצע, סקר שבו מפלגה מתחת לאחוז החסימה נספר כ-0. מפלגה שהממוצע המעוגל שלה נמוך מ-4 מוצגת כמתחת לאחוז החסימה. בין שאר המפלגות מחולקים בדיוק 120 מנדטים לפי שיטת השארית הגדולה, ולכן המספר הגדול יכול להיות גבוה מהממוצע המדויק שמופיע לידו.</div>`:""}`;
   $("warns").innerHTML=warns.length?`<b>שימו לב</b><ul>${[...new Set(warns)].map(w=>`<li>${esc(w)}</li>`).join("")}</ul>`:"";
   renderCompare();
+  hsIcons();
 }
 
 function renderCompare(){
@@ -134,9 +160,10 @@ function renderCompare(){
   const avg=SOURCES[0];
   parties.sort((a,b)=>(avg.seats[b]||0)-(avg.seats[a]||0));
   const cols=[...POLLS,avg];
-  let html=`<div class="foot" style="margin:0 0 10px;font-size:13px;color:var(--ink2)">מועמדים שנמצאים בטווח החם לפחות באחד הסקרים · ${filterLabel()}</div>
-  <div class="legend"><span><i class="sw c-safe"></i>נכנס בבטחה (עד N-3)</span><span><i class="sw c-in"></i>נכנס, בטווח החם</span><span><i class="sw c-hot"></i>בטווח החם, לא נכנס</span><span><i class="sw c-out"></i>לא נכנס</span><span><i class="sw c-na"></i>המפלגה מתחת לחסימה</span></div>
-  <table class="cmp"><thead><tr><th>מקום</th><th style="text-align:right">מועמד/ת</th>${cols.map(s=>`<th class="${s.id==="avg"?"avgcol":""}">${esc(s.short)}${s.date?`<br><span style="font-weight:400">${s.date}</span>`:""}</th>`).join("")}<th>נכנס ב-</th></tr></thead><tbody>`;
+  const STATE_LABEL={"c-safe":"נכנס בבטחה (עד N-3)","c-in":"נכנס, בטווח החם","c-hot":"בטווח החם, לא נכנס","c-out":"לא נכנס","c-na":"המפלגה מתחת לחסימה"};
+  let html=`<p class="ctx">מועמדים שנמצאים בטווח החם לפחות באחד הסקרים · ${filterLabel()}</p>
+  <div class="legend"><span><i class="sw cell c-safe" aria-hidden="true">✓</i>נכנס בבטחה (עד N-3)</span><span><i class="sw cell c-in" aria-hidden="true">✓</i>נכנס, בטווח החם</span><span><i class="sw cell c-hot" aria-hidden="true">·</i>בטווח החם, לא נכנס</span><span><i class="sw cell c-out" aria-hidden="true"></i>לא נכנס</span><span><i class="sw cell c-na" aria-hidden="true">–</i>המפלגה מתחת לחסימה</span></div>
+  <table class="cmp"><thead><tr><th class="stick s1">מקום</th><th class="stick s2">מועמד/ת</th>${cols.map(s=>`<th class="${s.id==="avg"?"avgcol":""}">${esc(s.short)}${s.date?`<br><span class="datesub"><bdi>${s.date}</bdi></span>`:""}</th>`).join("")}<th>נכנס ב-</th></tr></thead><tbody>`;
   let any=false;
   parties.forEach(party=>{
     const list=LISTS[party];
@@ -145,21 +172,21 @@ function renderCompare(){
     const cands=[...posSet].sort((a,b)=>a-b).map(p=>list.find(c=>c.pos===p)||{pos:p,missing:true}).filter(c=>c.missing?state.g==="all":gMatch(genderOf(c)));
     if(!cands.length)return;
     any=true;
-    html+=`<tr class="party"><td colspan="2">${esc(party)}</td>${cols.map(s=>`<td class="sn ${s.id==="avg"?"avgcol":""}">${s.seats[party]||"–"}</td>`).join("")}<td class="sn"></td></tr>`;
-    cands.forEach(c=>{
+    html+=`<tr class="party"><td class="stick s1"></td><td class="stick s2">${esc(party)}</td>${cols.map(s=>`<td class="sn ${s.id==="avg"?"avgcol":""}"><bdi>${s.seats[party]||"–"}</bdi></td>`).join("")}<td class="sn"></td></tr>`;
+    cands.forEach((c,ci)=>{
       let entered=0;
       const cells=cols.map(s=>{
         const N=s.seats[party]||0;let cls,txt="";
-        if(!N){cls="c-na"}
+        if(!N){cls="c-na";txt="–"}
         else if(c.pos<=N-3){cls="c-safe";txt="✓"}
         else if(c.pos<=N){cls="c-in";txt="✓"}
         else if(c.pos<=N+2){cls="c-hot";txt="·"}
         else cls="c-out";
         if(s.id!=="avg"&&N&&c.pos<=N)entered++;
-        return `<td class="${s.id==="avg"?"avgcol":""}"><span class="cell ${cls}" title="${esc(s.label)}">${txt}</span></td>`;
+        return `<td class="${s.id==="avg"?"avgcol":""}"><span class="cell ${cls}" role="img" title="${esc(s.label)}: ${STATE_LABEL[cls]}" aria-label="${esc(s.label)}: ${STATE_LABEL[cls]}">${txt}</span></td>`;
       }).join("");
-      const name=c.missing?`<span class="cu">אין נתונים למקום הזה</span>`:`<button type="button" class="cname" data-key="${esc(party+"|"+c.pos)}">${esc(displayName(c))}</button> <span class="tag ${genderOf(c)}">${G_LABEL[genderOf(c)]}</span>`;
-      html+=`<tr><td>${c.pos}</td><td class="name">${name}</td>${cells}<td><b>${entered}</b>/${POLLS.length}</td></tr>`;
+      const name=c.missing?`<span class="cu">אין נתונים למקום הזה</span>`:`<button type="button" class="cname cname-cell" data-key="${esc(party+"|"+c.pos)}"><span class="nm">${esc(displayName(c))}</span><span class="tag ${genderOf(c)}">${G_LABEL[genderOf(c)]}</span></button>`;
+      html+=`<tr${ci%2?' class="zebra"':""}><td class="stick s1"><bdi>${c.pos}</bdi></td><td class="name stick s2">${name}</td>${cells}<td class="count"><bdi dir="ltr"><b>${entered}</b>/${POLLS.length}</bdi></td></tr>`;
     });
   });
   html+=`</tbody></table>`;
@@ -168,21 +195,65 @@ function renderCompare(){
   $("capCompare").style.display="inline-block";
 }
 
+// PNG export. Always captured in the light theme, with web fonts loaded and motion off.
+// Two frames so the light theme is painted; the timeout covers hidden tabs where frames don't run.
+const nextFrame=()=>new Promise(r=>{let done=false;const fin=()=>{if(!done){done=true;r()}};requestAnimationFrame(()=>requestAnimationFrame(fin));setTimeout(fin,120)});
 async function exportPng(btn){
   const el=$(btn.dataset.target);
-  const old=btn.textContent;btn.textContent="מייצא…";btn.disabled=true;
+  const label=btn.querySelector("span")||btn;
+  const old=label.textContent;label.textContent="מייצא…";btn.disabled=true;
+  const root=document.documentElement,prevTheme=root.dataset.theme;
   document.body.classList.add("exporting");
+  root.dataset.theme="light";
   try{
-    const url=await htmlToImage.toPng(el,{pixelRatio:2,backgroundColor:"#ffffff",width:el.scrollWidth,height:el.scrollHeight});
+    if(typeof htmlToImage==="undefined")throw new Error("html-to-image not loaded");
+    if(document.fonts&&document.fonts.ready)await document.fonts.ready;
+    await nextFrame();
+    const bg=getComputedStyle(document.body).backgroundColor,pad=20;
+    const opts={pixelRatio:2,backgroundColor:bg,width:el.scrollWidth+pad*2,height:el.scrollHeight+pad*2,style:{padding:pad+"px",boxSizing:"content-box",display:"block",width:el.scrollWidth+"px"}};
+    let url;
+    try{url=await htmlToImage.toPng(el,opts)}
+    catch(fontErr){console.warn("export with web fonts failed, retrying without",fontErr);url=await htmlToImage.toPng(el,{...opts,skipFonts:true})}
     const src=SOURCES.find(s=>s.id===state.src);
     const a=document.createElement("a");
     a.href=url;a.download=`${btn.dataset.name}-${btn.dataset.target==="capParties"?src.short+"-":""}${state.g}.png`;
     document.body.appendChild(a);a.click();a.remove();
-    btn.textContent="נשמר";
-  }catch(e){console.error(e);btn.textContent="הייצוא נכשל"}
-  finally{document.body.classList.remove("exporting")}
-  setTimeout(()=>{btn.textContent=old;btn.disabled=false},1800);
+    label.textContent="נשמר";
+  }catch(e){console.error(e);label.textContent="הייצוא נכשל"}
+  finally{
+    if(prevTheme)root.dataset.theme=prevTheme;else delete root.dataset.theme;
+    document.body.classList.remove("exporting");
+  }
+  setTimeout(()=>{label.textContent=old;btn.disabled=false},1800);
 }
+
+// Icons (Lucide). Safe no-op when the CDN script is missing.
+function hsIcons(){try{if(window.lucide&&lucide.createIcons)lucide.createIcons({attrs:{"aria-hidden":"true"}})}catch(e){console.warn(e)}}
+window.hsIcons=hsIcons;
+
+// Theme toggle: light / dark, remembered per browser.
+function currentTheme(){const t=document.documentElement.dataset.theme;if(t)return t;return matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}
+function paintThemeBtn(){
+  const dark=currentTheme()==="dark",b=$("themeBtn");
+  b.setAttribute("aria-pressed",dark);b.setAttribute("aria-label",dark?"מצב בהיר":"מצב כהה");b.title=b.getAttribute("aria-label");
+  b.innerHTML=icon(dark?"sun":"moon")+`<span class="fallback-txt">${dark?"מצב בהיר":"מצב כהה"}</span>`;
+  hsIcons();
+  b.querySelector(".fallback-txt").hidden=!!b.querySelector("svg");
+}
+$("themeBtn").addEventListener("click",()=>{
+  const next=currentTheme()==="dark"?"light":"dark";
+  document.documentElement.dataset.theme=next;
+  try{localStorage.setItem("hs-theme",next)}catch(e){}
+  paintThemeBtn();
+});
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change",paintThemeBtn);
+paintThemeBtn();
+
+// Sticky control bar: add a shadow once it is stuck to the top.
+(()=>{const bar=$("bar");let top=bar.offsetTop,ticking=false;
+  const upd=()=>{bar.classList.toggle("stuck",window.scrollY>top-1);ticking=false};
+  addEventListener("scroll",()=>{if(!ticking){ticking=true;requestAnimationFrame(upd)}},{passive:true});
+  addEventListener("resize",()=>{bar.classList.remove("stuck");top=bar.offsetTop;upd()});upd();})();
 
 // Candidate detail card. One dialog, opened from any .cname button.
 let cdOpener=null;
@@ -252,11 +323,12 @@ function openDetails(btn){
     </div>
     ${hasInfo?`${d.summaryHe?`<p class="cd-sum">${esc(d.summaryHe)}</p>${srcLine}`:""}
       ${d.matchConfidence==="medium"?`<p class="cd-note">ההתאמה בין המועמד לבין הערך בוויקיפדיה לא אומתה במלואה.</p>`:""}
-      ${he||en?`<div class="cd-links">${he?`<a class="cd-btn" href="${esc(he)}" target="_blank" rel="noopener">ויקיפדיה</a>`:""}${en?`<a class="cd-btn" href="${esc(en)}" target="_blank" rel="noopener" lang="en">English</a>`:""}</div>`:""}
+      ${he||en?`<div class="cd-links">${he?`<a class="cd-btn" href="${esc(he)}" target="_blank" rel="noopener">${icon("external-link","flip-rtl")}ויקיפדיה</a>`:""}${en?`<a class="cd-btn" href="${esc(en)}" target="_blank" rel="noopener" lang="en">${icon("external-link","flip-rtl")}English</a>`:""}</div>`:""}
       ${links}
       ${credit}`:`<p class="cd-empty">${links?"קישורים:":"אין מידע נוסף זמין"}</p>${links}`}`;
   const im=$("cdBody").querySelector(".cd-img");
   if(im)im.addEventListener("error",()=>{im.outerHTML=avatar},{once:true});
+  hsIcons();
   cdOpener=btn;
   const dlg=$("cdModal");
   dlg.showModal();
