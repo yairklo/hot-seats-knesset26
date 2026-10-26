@@ -185,7 +185,8 @@ async function exportPng(btn){
 
 // Candidate detail card. One dialog, opened from any .cname button.
 let cdOpener=null;
-function initials(name){return name.replace(/\(.*?\)/g,"").trim().split(/\s+/).slice(0,2).map(w=>w[0]||"").join("")}
+// First letter of the first and last word of the display name ("דרור דוד עמוס" → "דע").
+function initials(name){const w=name.replace(/\(.*?\)/g,"").trim().split(/\s+/).filter(Boolean);return w.length>1?w[0][0]+w[w.length-1][0]:(w[0]||"").slice(0,1)}
 function safeUrl(u){try{const x=new URL(u);return x.protocol==="https:"?x.href:""}catch{return ""}}
 function openDetails(btn){
   const key=btn.dataset.key;
