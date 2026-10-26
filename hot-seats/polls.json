@@ -1,0 +1,30 @@
+{
+  "source": "טבלת הסקרים לבחירות 2026 בוויקיפדיה האנגלית. null = מתחת לאחוז החסימה",
+  "partyMap": {
+    "Likud": "הליכוד",
+    "Together": "ביחד",
+    "RZP-Zehut": "הציונות הדתית",
+    "Otzma": "עוצמה יהודית",
+    "Shas": "ש\"ס",
+    "UTJ": "יהדות התורה",
+    "YisraelBeiteinu": "ישראל ביתנו",
+    "Raam": "רע\"מ",
+    "JointList": "הרשימה המשותפת",
+    "Democrats": "הדמוקרטים",
+    "Yashar": "ישר!",
+    "Reservists-NEP": "המילואימניקים",
+    "AmchaYisrael": "עמך ישראל"
+  },
+  "polls": [
+    {"date": "2026-10-23", "outlet": "Channel 13", "seats": {"Likud": 19, "Together": 14, "RZP-Zehut": 8, "Otzma": 8, "Shas": 7, "UTJ": 8, "YisraelBeiteinu": 8, "Raam": 7, "JointList": 9, "Democrats": 10, "Yashar": 22, "Reservists-NEP": null, "AmchaYisrael": null}},
+    {"date": "2026-10-23", "outlet": "Channel 12", "seats": {"Likud": 21, "Together": 15, "RZP-Zehut": 6, "Otzma": 8, "Shas": 8, "UTJ": 7, "YisraelBeiteinu": 8, "Raam": 5, "JointList": 9, "Democrats": 10, "Yashar": 23, "Reservists-NEP": null, "AmchaYisrael": null}},
+    {"date": "2026-10-22", "outlet": "Israel Hayom", "seats": {"Likud": 21, "Together": 14, "RZP-Zehut": 6, "Otzma": 8, "Shas": 8, "UTJ": 7, "YisraelBeiteinu": 7, "Raam": 5, "JointList": 9, "Democrats": 8, "Yashar": 23, "Reservists-NEP": 4, "AmchaYisrael": null}},
+    {"date": "2026-10-22", "outlet": "Channel 14", "seats": {"Likud": 30, "Together": 11, "RZP-Zehut": 7, "Otzma": 8, "Shas": 9, "UTJ": 8, "YisraelBeiteinu": 5, "Raam": 6, "JointList": 8, "Democrats": 8, "Yashar": 20, "Reservists-NEP": null, "AmchaYisrael": null}},
+    {"date": "2026-10-22", "outlet": "Zman Yisrael", "seats": {"Likud": 21, "Together": 11, "RZP-Zehut": 6, "Otzma": 8, "Shas": 8, "UTJ": 8, "YisraelBeiteinu": 9, "Raam": 5, "JointList": 9, "Democrats": 8, "Yashar": 23, "Reservists-NEP": 4, "AmchaYisrael": null}},
+    {"date": "2026-10-22", "outlet": "Maariv", "seats": {"Likud": 19, "Together": 15, "RZP-Zehut": 7, "Otzma": 7, "Shas": 8, "UTJ": 7, "YisraelBeiteinu": 8, "Raam": 5, "JointList": 9, "Democrats": 10, "Yashar": 21, "Reservists-NEP": 4, "AmchaYisrael": null}},
+    {"date": "2026-10-20", "outlet": "i24", "seats": {"Likud": 26, "Together": 12, "RZP-Zehut": 7, "Otzma": 9, "Shas": 8, "UTJ": 8, "YisraelBeiteinu": 7, "Raam": 6, "JointList": 8, "Democrats": 9, "Yashar": 20, "Reservists-NEP": null, "AmchaYisrael": null}},
+    {"date": "2026-10-20", "outlet": "Channel 16", "seats": {"Likud": 18, "Together": 15, "RZP-Zehut": 6, "Otzma": 9, "Shas": 6, "UTJ": 7, "YisraelBeiteinu": 7, "Raam": 5, "JointList": 9, "Democrats": 9, "Yashar": 21, "Reservists-NEP": 4, "AmchaYisrael": 4}},
+    {"date": "2026-10-19", "outlet": "Walla", "seats": {"Likud": 19, "Together": 14, "RZP-Zehut": 6, "Otzma": 8, "Shas": 8, "UTJ": 7, "YisraelBeiteinu": 8, "Raam": 6, "JointList": 8, "Democrats": 9, "Yashar": 23, "Reservists-NEP": 4, "AmchaYisrael": null}},
+    {"date": "2026-10-18", "outlet": "Kan 11", "seats": {"Likud": 21, "Together": 12, "RZP-Zehut": 7, "Otzma": 8, "Shas": 8, "UTJ": 7, "YisraelBeiteinu": 8, "Raam": 5, "JointList": 8, "Democrats": 9, "Yashar": 23, "Reservists-NEP": 4, "AmchaYisrael": null}}
+  ]
+}

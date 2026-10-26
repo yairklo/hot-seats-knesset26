@@ -1,0 +1,2844 @@
+{
+ "source": "רשימות המועמדים שהוגשו לוועדת הבחירות המרכזית לכנסת ה-26 (gov.il), 30 המקומות הראשונים",
+ "genderNote": "F = אישה, M = גבר, null = לא אומת",
+ "parties": [
+  {
+   "name": "ישר!",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "איזנקוט גד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "כהן יורם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "פרקש הכהן אורית",
+     "display": "אורית פרקש הכהן",
+     "gender": "F"
+    },
+    {
+     "pos": 4,
+     "official": "אלטשולר עדי",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 5,
+     "official": "כהנא מתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "טרופר יחיאל משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "מרידור שאול",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "איפרגן תאיר סולי",
+     "display": "תאיר סולי איפרגן",
+     "gender": "F"
+    },
+    {
+     "pos": 9,
+     "official": "גני גונן אושרת",
+     "display": "אושרת גני גונן",
+     "gender": "F"
+    },
+    {
+     "pos": 10,
+     "official": "שפירא שירה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 11,
+     "official": "הרוש גיטי עינבר",
+     "display": "גיטי עינבר הרוש",
+     "gender": "F"
+    },
+    {
+     "pos": 12,
+     "official": "שטרן אלעזר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "אבו רוקן כמיל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "בכר דבורה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 15,
+     "official": "ריף אלקס",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 16,
+     "official": "יחזקאלי בליליוס ענבר",
+     "display": "ענבר יחזקאלי בליליוס",
+     "gender": "F"
+    },
+    {
+     "pos": 17,
+     "official": "פולקמן רועי שמואל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 18,
+     "official": "זרי ישראל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "אוחנה טל",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 20,
+     "official": "פרץ אליסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "טבג'ה יפה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 22,
+     "official": "חג'בי ניר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "ברקאי רון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "פישר שי אנדראה",
+     "display": "שי אנדראה פישר",
+     "gender": "F"
+    },
+    {
+     "pos": 25,
+     "official": "פולק דוד ליאן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "כהן רועי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 27,
+     "official": "רוזן זיו",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "באש גוסלין",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 29,
+     "official": "פוטרמן אלון צבי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "מולנר טלי",
+     "display": null,
+     "gender": "F"
+    }
+   ]
+  },
+  {
+   "name": "הליכוד",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "נתניהו בנימין",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "כהן אליהו",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "אוחנה אמיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "לוין יריב גדעון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "רגב מרים",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 6,
+     "official": "כץ ישראל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "סער גדעון משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "כץ אופיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "גואילי טלי",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 10,
+     "official": "קיש יואב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "ברדוגו יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "זוהר מכלוף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "כהן אלמוג",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "שיקלי עמיחי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "מדן אלישע",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "פטר דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "סעדה משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 18,
+     "official": "כץ חיים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "אמסלם דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "עטייה חוה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 21,
+     "official": "ביסמוט בעז",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 22,
+     "official": "ביטן דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "קרעי שלמה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "ברקת ניר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 25,
+     "official": "גמליאל דמרי גילה",
+     "display": "גילה גמליאל דמרי",
+     "gender": "F"
+    },
+    {
+     "pos": 26,
+     "official": "גולדשמידט אלי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 27,
+     "official": "תדמור ארז",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "לרנר שלמה יוסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 29,
+     "official": "בונצל יצחק",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "פרץ משה בנימין",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "ביחד",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "בנט נפתלי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "לפיד יאיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "טרנר אייל קרן",
+     "display": "קרן טרנר אייל",
+     "gender": "F"
+    },
+    {
+     "pos": 4,
+     "official": "בן ארי מירב",
+     "display": "מירב בן ארי",
+     "gender": "F"
+    },
+    {
+     "pos": 5,
+     "official": "אבישר בן חורין לירן",
+     "display": "לירן אבישר בן חורין",
+     "gender": "F"
+    },
+    {
+     "pos": 6,
+     "official": "תיבון נעם משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "הירש נגרי מיכל טליה",
+     "display": "מיכל טליה הירש נגרי",
+     "gender": "F"
+    },
+    {
+     "pos": 8,
+     "official": "גינזבורג איתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "כהן מירב",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 10,
+     "official": "שלו יונתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "נעים ארמן ברוריה",
+     "display": "ברוריה נעים ארמן",
+     "gender": "F"
+    },
+    {
+     "pos": 12,
+     "official": "בן ברק רם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "סטרוגו אמיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "שירי נאור",
+     "display": "שירי נאור",
+     "gender": "F"
+    },
+    {
+     "pos": 15,
+     "official": "זאבי ניסן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "בליאק ולדימיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "אלידן-הראל אורלי",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 18,
+     "official": "להב הרצנו יוראי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "ורון שחר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "פרידמן יסמין",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 21,
+     "official": "איילון קובו אסתי",
+     "display": "אסתי איילון קובו",
+     "gender": "F"
+    },
+    {
+     "pos": 22,
+     "official": "אטיאס מויאל נטע",
+     "display": "נטע אטיאס מויאל",
+     "gender": "F"
+    },
+    {
+     "pos": 23,
+     "official": "סלטן ג'רמי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "טור-פז משה יהודה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 25,
+     "official": "פלוטניצקי צבי גריגורי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "קנטור אולסיה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 27,
+     "official": "דוידסון סימון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "גיל מתי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 29,
+     "official": "טל מירון שלי",
+     "display": "שלי טל מירון",
+     "gender": "F"
+    },
+    {
+     "pos": 30,
+     "official": "וינר תומר",
+     "display": null,
+     "gender": null
+    }
+   ]
+  },
+  {
+   "name": "הדמוקרטים",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "גולן יאיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "לזימי נעמה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 3,
+     "official": "קריב גלעד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "רייטן מרום אפרת",
+     "display": "אפרת רייטן מרום",
+     "gender": "F"
+    },
+    {
+     "pos": 5,
+     "official": "פינק יאיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "לסקי שוץ גבריאלה",
+     "display": "גבריאלה לסקי שוץ",
+     "gender": "F"
+    },
+    {
+     "pos": 7,
+     "official": "רונן עמרי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "רוזין מיכל",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 9,
+     "official": "רדמן משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "בשיר סומייה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 11,
+     "official": "שפר נמרוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "זר קצנשטיין מורן",
+     "display": "מורן זר קצנשטיין",
+     "gender": "F"
+    },
+    {
+     "pos": 13,
+     "official": "דאבוש אבי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "מואטי אמילי חיה",
+     "display": "אמילי חיה מואטי",
+     "gender": "F"
+    },
+    {
+     "pos": 15,
+     "official": "אביטל תומר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "רוזוליו נאווה חיה",
+     "display": "נאווה חיה רוזוליו",
+     "gender": "F"
+    },
+    {
+     "pos": 17,
+     "official": "שפע רם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 18,
+     "official": "סלאלחה עלי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "סיון הופמן רתם",
+     "display": "רתם סיון הופמן",
+     "gender": "F"
+    },
+    {
+     "pos": 20,
+     "official": "עציון ערן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "מישל מורן",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 22,
+     "official": "רז מוסי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "סלאמנה גאלב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "פיאסצקי מורג קטי",
+     "display": "קטי פיאסצקי מורג",
+     "gender": "F"
+    },
+    {
+     "pos": 25,
+     "official": "ח'ניפס אמיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "ברוך רון מהרטה",
+     "display": "מהרטה ברוך רון",
+     "gender": "F"
+    },
+    {
+     "pos": 27,
+     "official": "בדיר עאיד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "אריאלי חן",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 29,
+     "official": "ביילין גיל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "כהן פארן יעל",
+     "display": "יעל כהן פארן",
+     "gender": "F"
+    }
+   ]
+  },
+  {
+   "name": "ישראל ביתנו",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "ליברמן אביגדור",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "בן שטרית רפאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "לנקרי טליה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 4,
+     "official": "פורר עודד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "מלינובסקי קונין יוליה",
+     "display": "יוליה מלינובסקי קונין",
+     "gender": "F"
+    },
+    {
+     "pos": 6,
+     "official": "שרעבי שרון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "עמאר חמד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "סובה יבגני",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "קוליחמן אלוירה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 10,
+     "official": "אילוז דן אליהו יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "בן עמי לילי",
+     "display": "לילי בן עמי",
+     "gender": "F"
+    },
+    {
+     "pos": 12,
+     "official": "בנבנישתי יעל",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 13,
+     "official": "אזולאי דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "מגן תלם לימור",
+     "display": "לימור מגן תלם",
+     "gender": "F"
+    },
+    {
+     "pos": 15,
+     "official": "בן שיטרית ישראל יאיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "רופא אופיר שרון אסתר",
+     "display": "שרון אסתר רופא אופיר",
+     "gender": "F"
+    },
+    {
+     "pos": 17,
+     "official": "דקל מור",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 18,
+     "official": "לוין שמיר מיכאלה אנה",
+     "display": "מיכאלה אנה לוין שמיר",
+     "gender": "F"
+    },
+    {
+     "pos": 19,
+     "official": "רפוביץ אוליביה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 20,
+     "official": "מוזס יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "קור עמנואל עמי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 22,
+     "official": "פלומבוים כץ מאיה",
+     "display": "מאיה פלומבוים כץ",
+     "gender": "F"
+    },
+    {
+     "pos": 23,
+     "official": "מורדוכייב אדוארד אדי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "אורון-עזני מיכל",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 25,
+     "official": "בויאנגו מצא סתו",
+     "display": "סתו בויאנגו מצא",
+     "gender": "F"
+    },
+    {
+     "pos": 26,
+     "official": "ביזברג אסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 27,
+     "official": "רובין סטיבן יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "שמיר קינן שולי שולמית",
+     "display": "שולי שולמית שמיר קינן",
+     "gender": "F"
+    },
+    {
+     "pos": 29,
+     "official": "שקד ברק מירית",
+     "display": "מירית שקד ברק",
+     "gender": "F"
+    },
+    {
+     "pos": 30,
+     "official": "רובין בילי",
+     "display": null,
+     "gender": "F"
+    }
+   ]
+  },
+  {
+   "name": "עוצמה יהודית",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "בן גביר איתמר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "גוטליב רויטל טלי",
+     "display": "רויטל טלי גוטליב",
+     "gender": "F"
+    },
+    {
+     "pos": 3,
+     "official": "וסרלאוף יצחק שמעון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "אליהו עמיחי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "סון הר-מלך לימור",
+     "display": "לימור סון הר-מלך",
+     "gender": "F"
+    },
+    {
+     "pos": 6,
+     "official": "קרויזר יצחק",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "דורפמן חנמאל שיראי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "אליהו צחי יצחק",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "גולדברגר יוסף יצחק",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "ניימן איתיאל יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "בבלי דוד מנחם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "פליישר ישי יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "מירזאי שירן",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 14,
+     "official": "גולן שימי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "בדלוב יניב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "מסלה אייצ'לותם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "מזוז גד אפרים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 18,
+     "official": "פריזיס מרדכי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "עמר אהרון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "יומטוביאן אור אליה",
+     "display": "אור אליה יומטוביאן",
+     "gender": null
+    },
+    {
+     "pos": 21,
+     "official": "פוני שירה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 22,
+     "official": "זיתונה תירן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "מיוחס פנחס יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "שוקר לירן",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 25,
+     "official": "חממי משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "בידוש קרן",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 27,
+     "official": "שאלתיאל רועי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "גרוסמן ידידיה-חיים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 29,
+     "official": "אוחנה דרור מאיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "איסאקוב רוני רונן",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "הרשימה המשותפת",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "גבארין יוסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "טיבי אחמד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "אבו שחאדה סאמי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "ג'טאס פאתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "עואודה בכר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "כסיף עופר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "עטאונה יוסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "כרכבי סבאח מהא",
+     "display": "מהא כרכבי סבאח",
+     "gender": "F"
+    },
+    {
+     "pos": 9,
+     "official": "דראושה אחמד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "ושאחי נהאיה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 11,
+     "official": "אלנסאסרה חסן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "זחאלקה האיתם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "נאטור איאס",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "עבדאללה ג'סאן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "נוי אורלי",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 16,
+     "official": "סטולר מור שושן",
+     "display": "מור שושן סטולר",
+     "gender": "F"
+    },
+    {
+     "pos": 17,
+     "official": "קעדאן איעתמאד",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 18,
+     "official": "ואכד עומר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "מיעארי מואייד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "גזאווי גאנם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "זועבי אומניה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 22,
+     "official": "סנעאללה נסר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "ח'וריה סרי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "כבהה לאית",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 25,
+     "official": "קעדאן וליד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "נועה לוי",
+     "display": "נועה לוי",
+     "gender": null
+    },
+    {
+     "pos": 27,
+     "official": "טאהא עמאר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "אבו גררה יונס",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 29,
+     "official": "חזאן רים",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 30,
+     "official": "אבו אחמד ואפי",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "יהדות התורה",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "אשר יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "גולדקנופ יצחק יששכר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "פינדרוס יצחק זאב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "פרוש מאיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "רוזנטל משה עזריאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "שטארק אלי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "וויספיש יהודה לייב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "טסלר יואל יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "זלץ דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "אוחנה דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "רוט משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "ברוכי אליהו",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "פרוש ישראל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "רייך יצחק",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "באהם יוסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "גוטרמן יעקב אשר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "דייטש יוסי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 18,
+     "official": "גרינברג שמואל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "וינגרטן יחיאל אריה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "רביץ יצחק",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "אברמוביץ פרץ",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 22,
+     "official": "שפירא מנחם מנדל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "כץ חיים מאיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "מורגנשטרן משה דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 25,
+     "official": "וובר אפרים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "ראוכברגר אליעזר צבי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 27,
+     "official": "רושגולד אברהם צבי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "דייטש אברהם בן ציון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 29,
+     "official": "אלבוים מנחם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "אלפר מרדכי מיכאל",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "ש\"ס",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "דרעי אריה מכלוף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "אזולאי ינון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "מלכיאלי מיכאל משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "בן צור יואב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "ביטון חיים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "עמוס דרור דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "אבוטבול משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "בוסו אוריאל מנחם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "טייב יוסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "מישרקי יונתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "אילנתנוב יוסי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "מלול ארז",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "מושיאשוילי סימיון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "כהן אוריאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "צדקה יעקב ישראל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "נמני רפאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "בן נאים משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 18,
+     "official": "רפאל ערן אביחי משיח",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "אשר בנימין אריאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "מור יוסף נתנאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "בוטבול יהודה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 22,
+     "official": "קקון יוסי יוסף חיים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "זבולון אלחנן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "אלמלח יצחק",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 25,
+     "official": "אלפלס נתנאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "אמסלם אברהם אבי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 27,
+     "official": "כהן רפאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "גבאי אורן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 29,
+     "official": "אלחרר שלמה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "סברלי חיים",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "הציונות הדתית",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "סמוטריץ בצלאל יואל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "פייגלין משה זלמן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "סטרוק אורית מלכה",
+     "display": "אורית מלכה סטרוק",
+     "gender": "F"
+    },
+    {
+     "pos": 4,
+     "official": "רוטמן שמחה דן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "מור צבי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "איתם איתמר מרדכי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "סוכות צבי ידידיה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "זאגא יצחק חי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "בן חיים רעות",
+     "display": "רעות בן חיים",
+     "gender": "F"
+    },
+    {
+     "pos": 10,
+     "official": "פציניאש וולדמן עומר",
+     "display": "עומר פציניאש וולדמן",
+     "gender": "F"
+    },
+    {
+     "pos": 11,
+     "official": "מוטר ארקדי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "טל אוהד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "קירשברג רועי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "רחמים עומר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "חסון סימון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "ששון שמואל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "נהיר שיראל",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 18,
+     "official": "וישינגרד צבי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "ברנשטיין איריס",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 20,
+     "official": "תם איתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "שוורצמן יהודה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 22,
+     "official": "פלד משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "איזבוצקי אלעד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "בכר יוסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 25,
+     "official": "גרינצייג חגי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "זאוברמן נתן משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 27,
+     "official": "טובלסקי סטניסלב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "דיסקין אברהם חיים אלבר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 29,
+     "official": "לייבלר שולמית אסתר",
+     "display": "שולמית אסתר לייבלר",
+     "gender": "F"
+    },
+    {
+     "pos": 30,
+     "official": "וולדיגר מיכל מרים",
+     "display": "מיכל מרים וולדיגר",
+     "gender": "F"
+    }
+   ]
+  },
+  {
+   "name": "רע\"מ",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "עבאס מנסור",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "סגלוביץ יואב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "טאהא ווליד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "אל הואשלה ואליד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "ח'טיב יאסין אימאן",
+     "display": "אימאן ח'טיב יאסין",
+     "gender": "F"
+    },
+    {
+     "pos": 6,
+     "official": "חוג'יראת יאסר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "אל טורי איברהים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "מסרי עבד אל כרים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "עזאם עבד אל כרים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "אבו לבן אברהים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "הייב מוחמד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "אבו מוך המאם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "אלחרומי יאסר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "זבידאת מוחמד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "עישאן כמאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "עדוי אשרף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "אל עמור סוהיב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 18,
+     "official": "זועבי נסר אלדין",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "חוסין נימר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "דהאמשה יחיא",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "עפאן דאוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 22,
+     "official": "גנאים ראפת",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "חג'אזי סאלח אנהאר",
+     "display": "אנהאר חג'אזי סאלח",
+     "gender": "F"
+    },
+    {
+     "pos": 24,
+     "official": "דראושה באסם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 25,
+     "official": "ותד אחמד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "אלטורי אדם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 27,
+     "official": "חרוב איימן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "חמודה חנאן",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 29,
+     "official": "חמדאן יאסמין",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 30,
+     "official": "בשותי פאטמה",
+     "display": null,
+     "gender": "F"
+    }
+   ]
+  },
+  {
+   "name": "עמך ישראל",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "ווינטר עופר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "חדאד יוסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "שם טוב נטעלי",
+     "display": "נטעלי שם טוב",
+     "gender": "F"
+    },
+    {
+     "pos": 4,
+     "official": "בן ארי ערן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "חסן-נחום פלר",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 6,
+     "official": "דרעי ללי",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 7,
+     "official": "בודנרו רונן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "בן ציון דוד נחום",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "עזרא אביב חיים",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "ג'ינו אלי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "קראוניק זריפה סגלית",
+     "display": "סגלית קראוניק זריפה",
+     "gender": "F"
+    },
+    {
+     "pos": 12,
+     "official": "רובין אריק מת'יו",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "אבראהים עלמאדין",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "הר ציון משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "חיים אידלברג לילך",
+     "display": "לילך חיים אידלברג",
+     "gender": "F"
+    },
+    {
+     "pos": 16,
+     "official": "טולדנו משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "מלכה רז",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 18,
+     "official": "לוי דור יצחק",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "המילואימניקים",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "הנדל יועז",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "זליכה ירון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "וילף עינת",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 4,
+     "official": "ווליבוביץ חביב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "אדומי יואב שלמה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "לנגמן אופיר שי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "דמרי שלומי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "גלבוע ליאור",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "פרץ תהילה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 10,
+     "official": "ביטון שלום",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "קינן עמליה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 12,
+     "official": "בורנשטיין הילה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 13,
+     "official": "גיטלר איתי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "אלישע משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "בהט יונתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "פז מאור",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 17,
+     "official": "רום אלמוג",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 18,
+     "official": "שבח דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 19,
+     "official": "לוי דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "נקי סתיו",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 21,
+     "official": "טגן בתאל",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 22,
+     "official": "כריסי חוברה הדס רנה",
+     "display": "הדס רנה כריסי חוברה",
+     "gender": "F"
+    },
+    {
+     "pos": 23,
+     "official": "לוי רוית",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 24,
+     "official": "לזמי אליאן",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 25,
+     "official": "נתן גבריאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "ספירט חפציבה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 27,
+     "official": "עמית אריה אליעד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "ששון יניב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 29,
+     "official": "סלונימסקי יוגב יבגני",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "אליהו ניר",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "כחול לבן",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "גנץ בנימין",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "תמנו פנינה (פנחש)",
+     "display": "פנינה תמנו",
+     "gender": "F"
+    },
+    {
+     "pos": 3,
+     "official": "בלוך גאולה עליזה",
+     "display": "גאולה עליזה בלוך",
+     "gender": "F"
+    },
+    {
+     "pos": 4,
+     "official": "קונקול רועי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "אבידר צאליק רתם",
+     "display": "רתם אבידר צאליק",
+     "gender": "F"
+    },
+    {
+     "pos": 6,
+     "official": "שוסטר אלון נתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "מרעי מופיד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "אוליאל מלכה יהודית",
+     "display": "מלכה יהודית אוליאל",
+     "gender": "F"
+    },
+    {
+     "pos": 9,
+     "official": "בזיז אריאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "סילפן מוריה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 11,
+     "official": "בן אברהם ג'וליאנה",
+     "display": "ג'וליאנה בן אברהם",
+     "gender": "F"
+    },
+    {
+     "pos": 12,
+     "official": "לב-כהן מוניקה יעל",
+     "display": "מוניקה יעל לב-כהן",
+     "gender": "F"
+    },
+    {
+     "pos": 13,
+     "official": "זולדן שי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "קידר לילי",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 15,
+     "official": "דוד שי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 16,
+     "official": "פרץ בן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 17,
+     "official": "עמר שרונה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 18,
+     "official": "שלו וודיסלבסקי רות",
+     "display": "רות שלו וודיסלבסקי",
+     "gender": "F"
+    },
+    {
+     "pos": 19,
+     "official": "יוסף נאהי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 20,
+     "official": "אסייג דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 21,
+     "official": "מנטבר נעה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 22,
+     "official": "סטרבורבדיס עמנואל אליהו",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 23,
+     "official": "רהב ציון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 24,
+     "official": "גרבי מיכאל שי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 25,
+     "official": "אדרי משה מור",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 26,
+     "official": "שקד ישעיהו",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 27,
+     "official": "זימבריס יוסף",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 28,
+     "official": "ולנטי רות",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 29,
+     "official": "גוטליב מיכאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 30,
+     "official": "אבן זיו יגאל",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "הציבור החרדי",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "ליטנר פנחס מרדכי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "פרדי אשר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "יפה מרים נחמה",
+     "display": "מרים נחמה יפה",
+     "gender": "F"
+    },
+    {
+     "pos": 4,
+     "official": "גלאנץ זיוה רנית",
+     "display": "זיוה רנית גלאנץ",
+     "gender": "F"
+    },
+    {
+     "pos": 5,
+     "official": "רובינשטיין מרדכי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "אדלרשטיין יצחק",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "אונגאר אהרן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "אופנהיימר יהודה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "גוטליב חיים יהודה לייב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "קאופמן יונה שלמה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "גולדברג אליהו",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "אוחנה ראובן",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "נעם לישראל",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "מעוז אביגדור",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "טבול שמעון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "ליבמן אליהו שלום",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "אלון ליאורה",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 5,
+     "official": "חיימוב יסכה איילת השחר",
+     "display": "יסכה איילת השחר חיימוב",
+     "gender": "F"
+    },
+    {
+     "pos": 6,
+     "official": "אביטן ישראל יאיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "אוזן אליהו",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "מאיר אילון",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "באבד אללקנה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "וינברג איתן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "מאיר אריאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "אשר ארז",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 13,
+     "official": "דביר יעקב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 14,
+     "official": "נאה יהושע אליעזר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 15,
+     "official": "כהן אלישבע",
+     "display": null,
+     "gender": "F"
+    },
+    {
+     "pos": 16,
+     "official": "רדה מאור",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "צומת בית ישראל",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "יברקן דסטה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "גרין משה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "אשטמקר יניב",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "דויטש רם טופז",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "אלעזר טקלה תמיר",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 6,
+     "official": "אלימלך ניצן ניסן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "כהנא אפרים יובל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "אליאס אינס",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 9,
+     "official": "בלאי אסממאו",
+     "display": null,
+     "gender": null
+    },
+    {
+     "pos": 10,
+     "official": "לינד דוד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 11,
+     "official": "קוה אבי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 12,
+     "official": "רייף גיא",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  },
+  {
+   "name": "תנועת אחי",
+   "candidates": [
+    {
+     "pos": 1,
+     "official": "אלמלך יובל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 2,
+     "official": "אפל ישראל אביחי",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 3,
+     "official": "ראובן ארז",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 4,
+     "official": "דיין אברהם",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 5,
+     "official": "כהן אדיר",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 6,
+     "official": "יחזקאל חנן",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 7,
+     "official": "דדון יהודה",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 8,
+     "official": "וודגה גרמה גד",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 9,
+     "official": "סויסה יצחק שניר רפאל",
+     "display": null,
+     "gender": "M"
+    },
+    {
+     "pos": 10,
+     "official": "נהרי יואל יקיר",
+     "display": null,
+     "gender": "M"
+    }
+   ]
+  }
+ ]
+}
